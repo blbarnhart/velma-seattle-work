@@ -1,0 +1,50 @@
+= Startups Summary:
+Startups: Input Data Root is "C:\Users\bbarnhart.DOMAIN1\OneDrive - National Council for Air and Stream Improvement Inc\Projects\Other\Legacy\velma\seattle\setups"
+Startups: Input Data Directory is "taylor_10m_velma"
+useIsotopeCode = false
+useMercuryCode = false
+
+= Spatial Data Summary:
+Spatial Data: DEM file is "taylor_Dredge_EEX_Flat_10m.asc"
+Spatial Data: DEM dimensions = 300 rows by 280 columns
+Spatial Data: DEM Total Cells= 84000
+Spatial Data: Delineated Cells= 29335
+Spatial Data: Delineated X min= 29, X max=237
+Spatial Data: Delineated Y min= 20, Y max=288
+Spatial Data: Cell dimensions= 10.000000 by 10.000000 meters
+
+= Timing Summary:
+Timing: Driver Data Start Year = 1987
+Timing: Driver Data   End Year = 2015
+Timing: Simulation Run Start Year = 2003
+Timing: Simulation Run   End Year = 2015
+
+= Soil Parameters Summary:
+Soil Parameters: Index Map File is "taylor_soil_10m.asc"
+ID=0 "sandy loam" occurs in 29335 delineated cells.
+
+= Cover Species Summary:
+Cover Species: Index Map File is "taylor_lulc_complex_10m.asc"
+Cover Species:   Age Map File is "taylor_age_10m.asc"
+ID=2 "Cover4_Buildings" occurs in 2963 delineated cells. No Source File: XML-only
+ID=3 "Conifer" occurs in 12204 delineated cells. No Source File: XML-only
+ID=13 "Cover2_RoadsBuildings" occurs in 7016 delineated cells. No Source File: XML-only
+ID=14 "Cover3_Grass" occurs in 7152 delineated cells. No Source File: XML-only
+
+
+= Disturbance Models Summary:
+Current Disturbance Models:
+Irrigation Disturbance Model in Loops: 1 in Years: 1987-2015 on Jdays: 167-259 irrigationThreshold=3.630000114440918
+Fertilize LSR Disturbance Model coverIds=[14] Filter=OFF ageThreshold={[0, 2147483647]} Additional (gN/m2):  NH4=1.6356 NO3=0.8056 Humus=2.4412 depositionTargetOption=SURFACE Active on Loops=[1] Years=[1987-2015] Jdays=[122, 167, 245, 306]
+Harvest LSR Disturbance Model coverIds=[14] Filter=OFF ageThreshold={[0, 2147483647]} Fractions={harvest, offsite} LEAF={0.3, 0.2} AG_STEM={0.3, 0.2} BG_STEM={0.0, 0.0} ROOT={0.0, 0.0} Active on Loops=[1] Years=[1987-2015] Jdays=[61, 75, 92, 106, 122, 136, 153, 167, 183, 197, 214, 228, 245, 259]
+
+= Cell Data Output Summary:
+Current Cell Data Writers:
+Cell Data Writer name=Outlet for x=54 y=193 index=54094
+
+= Spatial Data Map Output Summary:
+Current Spatial Data Writers:
+-- No Spatial Data Writers --
+Current Spatial Data Writer Data Sources Grouped by Output Location:
+
+
