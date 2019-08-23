@@ -18,8 +18,8 @@
       <reachOutletsFileName/>
       <input_soil_txt/>
       <input_stream_chem/>
-      <syear>2002</syear>
       <forcing_end>2015</forcing_end>
+      <syear>2003</syear>
       <numberOfLoops>1</numberOfLoops>
       <flowDirectionFileName/>
       <run_index>scen0_calib_server_taylor_lenovo</run_index>
@@ -27,14 +27,14 @@
       <input_rain/>
       <coverAgeMapFileName>taylor_age_10m.asc</coverAgeMapFileName>
       <input_dem>taylor_Dredge_EEX_Flat_10m.asc</input_dem>
-      <delineationManfestLocationName/>
       <globalStateLogFileName>GlobalStateLog.txt</globalStateLogFileName>
+      <delineationManfestLocationName/>
       <initializeSoilDepth>0.25, 0.25, 0.25, 0.25</initializeSoilDepth>
       <reportAllSoilResults>false</reportAllSoilResults>
-      <eyear>2009</eyear>
-      <f_ksv>0.0013</f_ksv>
-      <enableReachMapping>SOLO_MODE</enableReachMapping>
+      <eyear>2010</eyear>
       <coverSpeciesIndexMapFileName>taylor_lulc_complex_10m.asc</coverSpeciesIndexMapFileName>
+      <enableReachMapping>SOLO_MODE</enableReachMapping>
+      <f_ksv>0.0013</f_ksv>
       <ks>600.0</ks>
     </VelmaInputs.properties>
     <VelmaCalibration.properties>
@@ -42,7 +42,7 @@
       <srth>0.12</srth>
       <ninMaxLossFromNinBankPerDay>0.1</ninMaxLossFromNinBankPerDay>
       <initialUniformSoilMoisture>0.453</initialUniformSoilMoisture>
-      <nashSutcliffeEndYearForRunoffStats>2009</nashSutcliffeEndYearForRunoffStats>
+      <nashSutcliffeEndYearForRunoffStats>2010</nashSutcliffeEndYearForRunoffStats>
       <disablePsmWaterStressor>false</disablePsmWaterStressor>
       <denitDiffusivity>9.5</denitDiffusivity>
       <co2RespirationFraction>0.99</co2RespirationFraction>
@@ -77,24 +77,24 @@
       <roair>1300.0</roair>
       <useSoilTemperature>true</useSoilTemperature>
       <DDs>5.0</DDs>
-      <psm_q>0.015</psm_q>
-      <enableWaterBalanceReport>false</enableWaterBalanceReport>
       <parallelEdgeRecursionDepth>3</parallelEdgeRecursionDepth>
-      <deg_lat>44.205122</deg_lat>
+      <enableWaterBalanceReport>false</enableWaterBalanceReport>
+      <psm_q>0.015</psm_q>
       <dry_nin>0.1</dry_nin>
-      <nashSutcliffeStartYearForRunoffStats>2004</nashSutcliffeStartYearForRunoffStats>
+      <deg_lat>44.205122</deg_lat>
+      <nashSutcliffeStartYearForRunoffStats>2005</nashSutcliffeStartYearForRunoffStats>
       <useDenitrification>false</useDenitrification>
-      <microbeCefficiency>0.45</microbeCefficiency>
-      <no3SolubilityCoefficient>0.0</no3SolubilityCoefficient>
       <avgGST>8.5</avgGST>
-      <nh4SolubilityCoefficient>0.0</nh4SolubilityCoefficient>
+      <no3SolubilityCoefficient>0.0</no3SolubilityCoefficient>
+      <microbeCefficiency>0.45</microbeCefficiency>
       <avgAT>8.2</avgAT>
+      <nh4SolubilityCoefficient>0.0</nh4SolubilityCoefficient>
       <errthreshold>0.010</errthreshold>
-      <sr2>1.0</sr2>
-      <be>6.94</be>
       <enableHaltOnTransportBalanceCheckFail>true</enableHaltOnTransportBalanceCheckFail>
-      <sr1>2.5</sr1>
+      <be>6.94</be>
+      <sr2>1.0</sr2>
       <ninHalfSaturationKnForLossFromNinBank>40.0</ninHalfSaturationKnForLossFromNinBank>
+      <sr1>2.5</sr1>
       <enableTopographySpatialDataOutput>false</enableTopographySpatialDataOutput>
     </VelmaCalibration.properties>
   </calibration>
@@ -179,8 +179,8 @@
       <uptakeOptimumT>0</uptakeOptimumT>
       <mortalityLeafDenominatorCoefficient>0.0</mortalityLeafDenominatorCoefficient>
       <detritusLeafNmaxDecay>0</detritusLeafNmaxDecay>
-      <mortalityBgStemExponentialCoefficient>0.0</mortalityBgStemExponentialCoefficient>
       <no3Kn>0</no3Kn>
+      <mortalityBgStemExponentialCoefficient>0.0</mortalityBgStemExponentialCoefficient>
       <degreeDayThreshold>0</degreeDayThreshold>
       <detritusAgStemCtoN>0.001</detritusAgStemCtoN>
       <uptakeCurvature>0</uptakeCurvature>
@@ -192,8 +192,8 @@
       <useLinearMortalityAgStem>false</useLinearMortalityAgStem>
       <transpirationLimiterJdayOn>1</transpirationLimiterJdayOn>
       <transpirationLimiterCoeffD>1</transpirationLimiterCoeffD>
-      <nitrogenFixerFraction>0.0</nitrogenFixerFraction>
       <transpirationLimiterCoeffC>0</transpirationLimiterCoeffC>
+      <nitrogenFixerFraction>0.0</nitrogenFixerFraction>
       <transpirationLimiterCoeffB>0</transpirationLimiterCoeffB>
       <transpirationLimiterCoeffA>0</transpirationLimiterCoeffA>
       <detritusAgStemNmaxDecay>0.001</detritusAgStemNmaxDecay>
@@ -273,8 +273,8 @@
       <uptakeOptimumT>30.0</uptakeOptimumT>
       <mortalityLeafDenominatorCoefficient>1.0</mortalityLeafDenominatorCoefficient>
       <detritusLeafNmaxDecay>0.015</detritusLeafNmaxDecay>
-      <mortalityBgStemExponentialCoefficient>5.0</mortalityBgStemExponentialCoefficient>
       <no3Kn>0.3</no3Kn>
+      <mortalityBgStemExponentialCoefficient>5.0</mortalityBgStemExponentialCoefficient>
       <degreeDayThreshold>50</degreeDayThreshold>
       <detritusAgStemCtoN>67</detritusAgStemCtoN>
       <uptakeCurvature>0.5</uptakeCurvature>
@@ -286,8 +286,8 @@
       <useLinearMortalityAgStem>false</useLinearMortalityAgStem>
       <transpirationLimiterJdayOn>91</transpirationLimiterJdayOn>
       <transpirationLimiterCoeffD>1.0</transpirationLimiterCoeffD>
-      <nitrogenFixerFraction>0.0</nitrogenFixerFraction>
       <transpirationLimiterCoeffC>0.0</transpirationLimiterCoeffC>
+      <nitrogenFixerFraction>0.0</nitrogenFixerFraction>
       <transpirationLimiterCoeffB>0.0</transpirationLimiterCoeffB>
       <transpirationLimiterCoeffA>0.0</transpirationLimiterCoeffA>
       <detritusAgStemNmaxDecay>0.002</detritusAgStemNmaxDecay>
@@ -367,8 +367,8 @@
       <uptakeOptimumT>25.0</uptakeOptimumT>
       <mortalityLeafDenominatorCoefficient>10.0</mortalityLeafDenominatorCoefficient>
       <detritusLeafNmaxDecay>0.0033</detritusLeafNmaxDecay>
-      <mortalityBgStemExponentialCoefficient>0.07</mortalityBgStemExponentialCoefficient>
       <no3Kn>0.5</no3Kn>
+      <mortalityBgStemExponentialCoefficient>0.07</mortalityBgStemExponentialCoefficient>
       <degreeDayThreshold>2.0</degreeDayThreshold>
       <detritusAgStemCtoN>857</detritusAgStemCtoN>
       <uptakeCurvature>0.5</uptakeCurvature>
@@ -380,8 +380,8 @@
       <useLinearMortalityAgStem>false</useLinearMortalityAgStem>
       <transpirationLimiterJdayOn>152</transpirationLimiterJdayOn>
       <transpirationLimiterCoeffD>0.65</transpirationLimiterCoeffD>
-      <nitrogenFixerFraction>0.0</nitrogenFixerFraction>
       <transpirationLimiterCoeffC>0.000091</transpirationLimiterCoeffC>
+      <nitrogenFixerFraction>0.0</nitrogenFixerFraction>
       <transpirationLimiterCoeffB>0.000006</transpirationLimiterCoeffB>
       <transpirationLimiterCoeffA>0.35</transpirationLimiterCoeffA>
       <detritusAgStemNmaxDecay>0.00112</detritusAgStemNmaxDecay>
@@ -461,8 +461,8 @@
       <uptakeOptimumT>0</uptakeOptimumT>
       <mortalityLeafDenominatorCoefficient>0.0</mortalityLeafDenominatorCoefficient>
       <detritusLeafNmaxDecay>0</detritusLeafNmaxDecay>
-      <mortalityBgStemExponentialCoefficient>0.0</mortalityBgStemExponentialCoefficient>
       <no3Kn>0</no3Kn>
+      <mortalityBgStemExponentialCoefficient>0.0</mortalityBgStemExponentialCoefficient>
       <degreeDayThreshold>0</degreeDayThreshold>
       <detritusAgStemCtoN>0.001</detritusAgStemCtoN>
       <uptakeCurvature>0</uptakeCurvature>
@@ -474,8 +474,8 @@
       <useLinearMortalityAgStem>false</useLinearMortalityAgStem>
       <transpirationLimiterJdayOn>1</transpirationLimiterJdayOn>
       <transpirationLimiterCoeffD>1</transpirationLimiterCoeffD>
-      <nitrogenFixerFraction>0.0</nitrogenFixerFraction>
       <transpirationLimiterCoeffC>0</transpirationLimiterCoeffC>
+      <nitrogenFixerFraction>0.0</nitrogenFixerFraction>
       <transpirationLimiterCoeffB>0</transpirationLimiterCoeffB>
       <transpirationLimiterCoeffA>0</transpirationLimiterCoeffA>
       <detritusAgStemNmaxDecay>0.001</detritusAgStemNmaxDecay>
@@ -558,40 +558,40 @@
       <maxCo2DenitDaySpatialDisplay>2.0</maxCo2DenitDaySpatialDisplay>
       <minAgTotalBurnedCarbonDaySpatialDisplay>0.0</minAgTotalBurnedCarbonDaySpatialDisplay>
       <minHumusLayersDayDisplay>0.0</minHumusLayersDayDisplay>
-      <minIrradianceSpatialDisplay>0.0</minIrradianceSpatialDisplay>
       <minAgTotalCarbonDaySpatialDisplay>0.0</minAgTotalCarbonDaySpatialDisplay>
-      <vplot_doc>200.0</vplot_doc>
-      <minBiomassBgStemDayDisplay>0.0</minBiomassBgStemDayDisplay>
+      <minIrradianceSpatialDisplay>0.0</minIrradianceSpatialDisplay>
       <maxNinDayDisplay>0.02</maxNinDayDisplay>
-      <maxDetritusRootDayDisplay>1200</maxDetritusRootDayDisplay>
+      <minBiomassBgStemDayDisplay>0.0</minBiomassBgStemDayDisplay>
+      <vplot_doc>200.0</vplot_doc>
       <maxAsymbioticNfixedDayDisplay>0.1</maxAsymbioticNfixedDayDisplay>
+      <maxDetritusRootDayDisplay>1200</maxDetritusRootDayDisplay>
       <maxWaterLayerTDayDisplay>40.0</maxWaterLayerTDayDisplay>
       <maxDetritusLeafDayDisplay>2000</maxDetritusLeafDayDisplay>
-      <maxTidewaterSpatialDisplay>3.0</maxTidewaterSpatialDisplay>
       <minBiomassYearFinalDisplay>0.0</minBiomassYearFinalDisplay>
+      <maxTidewaterSpatialDisplay>3.0</maxTidewaterSpatialDisplay>
       <maxAgTotalGrazedCarbonDaySpatialDisplay>750.0</maxAgTotalGrazedCarbonDaySpatialDisplay>
-      <minContaminantDaySpatialDisplay>0.0</minContaminantDaySpatialDisplay>
       <max_psm_npp>2.0</max_psm_npp>
+      <minContaminantDaySpatialDisplay>0.0</minContaminantDaySpatialDisplay>
       <min_aet>100.0</min_aet>
-      <maxSnowSpatialDisplay>50.0</maxSnowSpatialDisplay>
       <maxNo3LossDayDisplay>0.0002</maxNo3LossDayDisplay>
-      <maxNo3DenitDaySpatialDisplay>2.0</maxNo3DenitDaySpatialDisplay>
+      <maxSnowSpatialDisplay>50.0</maxSnowSpatialDisplay>
       <maxSurfaceDonSpatialDisplay>1.0</maxSurfaceDonSpatialDisplay>
+      <maxNo3DenitDaySpatialDisplay>2.0</maxNo3DenitDaySpatialDisplay>
       <maxSurfaceNh4SpatialDisplay>1.0</maxSurfaceNh4SpatialDisplay>
       <maxSubRunoffDayDisplay>30.0</maxSubRunoffDayDisplay>
-      <maxHgDaySpatialDisplay>1.0</maxHgDaySpatialDisplay>
-      <minAirTDayDisplay>-10.0</minAirTDayDisplay>
       <minDetritusRootLayersDayDisplay>0.0</minDetritusRootLayersDayDisplay>
-      <maxDetritusBgStemDayDisplay>7000</maxDetritusBgStemDayDisplay>
+      <minAirTDayDisplay>-10.0</minAirTDayDisplay>
+      <maxHgDaySpatialDisplay>1.0</maxHgDaySpatialDisplay>
       <maxNitrificationDaySpatialDisplay>0.002</maxNitrificationDaySpatialDisplay>
+      <maxDetritusBgStemDayDisplay>7000</maxDetritusBgStemDayDisplay>
       <maxBiomassYearSumDisplay>50000.0</maxBiomassYearSumDisplay>
       <minAirTSpatialDisplay>-10.0</minAirTSpatialDisplay>
       <maxHumusDayDisplay>20000.0</maxHumusDayDisplay>
       <minDetritusBgStemDayDisplay>0.0</minDetritusBgStemDayDisplay>
-      <maxDocLossDayDisplay>0.04</maxDocLossDayDisplay>
       <minAirTYearDisplay>0.0</minAirTYearDisplay>
-      <minBiomassAgStemDayDisplay>0.0</minBiomassAgStemDayDisplay>
+      <maxDocLossDayDisplay>0.04</maxDocLossDayDisplay>
       <minGroundTDayDisplay>-20.0</minGroundTDayDisplay>
+      <minBiomassAgStemDayDisplay>0.0</minBiomassAgStemDayDisplay>
       <max_qtdin>0.0025</max_qtdin>
       <maxIrradianceDayDisplay>1500.0</maxIrradianceDayDisplay>
       <maxRunoffDayDisplay>50.0</maxRunoffDayDisplay>
@@ -599,17 +599,17 @@
       <minContaminantDayDisplay>0.0</minContaminantDayDisplay>
       <maxSymbioticNfixedDayDisplay>1.0</maxSymbioticNfixedDayDisplay>
       <minPlantUptakeSpatialDisplay>0.0</minPlantUptakeSpatialDisplay>
-      <minBiomassDayDisplay>0.0</minBiomassDayDisplay>
-      <maxRainDayDisplay>100.0</maxRainDayDisplay>
       <maxDetritusAgStemDayDisplay>30000</maxDetritusAgStemDayDisplay>
+      <maxRainDayDisplay>100.0</maxRainDayDisplay>
+      <minBiomassDayDisplay>0.0</minBiomassDayDisplay>
       <maxDenitrificationDaySpatialDisplay>0.00001</maxDenitrificationDaySpatialDisplay>
       <maxDocLossYearSumDisplay>10.0</maxDocLossYearSumDisplay>
       <maxNinfiltrationSpatialDisplay>1.0</maxNinfiltrationSpatialDisplay>
-      <minDetritusAgStemDayDisplay>0.0</minDetritusAgStemDayDisplay>
       <maxSurfaceNo3SpatialDisplay>1.0</maxSurfaceNo3SpatialDisplay>
+      <minDetritusAgStemDayDisplay>0.0</minDetritusAgStemDayDisplay>
       <minLitterDayDisplay>0.0</minLitterDayDisplay>
-      <minMeHgDaySpatialDisplay>0.0</minMeHgDaySpatialDisplay>
       <minAgTotalGrazedCarbonDaySpatialDisplay>0.0</minAgTotalGrazedCarbonDaySpatialDisplay>
+      <minMeHgDaySpatialDisplay>0.0</minMeHgDaySpatialDisplay>
       <maxSnowDepthSpatialDisplay>30.0</maxSnowDepthSpatialDisplay>
     </DisplayRange>
   </display>
@@ -617,8 +617,8 @@
     <Watering_Grass>
       <initializeActiveJdays>167-259</initializeActiveJdays>
       <modelClass>IrrigationDisturbanceModel</modelClass>
-      <initializeActiveLoops>1</initializeActiveLoops>
       <initializeCoverIds>14</initializeCoverIds>
+      <initializeActiveLoops>1</initializeActiveLoops>
       <initializeActiveYears>1987-2015</initializeActiveYears>
       <setIrrigationThreshold>3.63</setIrrigationThreshold>
     </Watering_Grass>
@@ -632,8 +632,8 @@
       <trimOutputToWatershedBoundary>false</trimOutputToWatershedBoundary>
       <initializeActiveJdays>122,167,245,306</initializeActiveJdays>
       <additionalNh4>1.6356</additionalNh4>
-      <initializeActiveLoops>1</initializeActiveLoops>
       <modelClass>FertilizeLsrDisturbanceModel</modelClass>
+      <initializeActiveLoops>1</initializeActiveLoops>
       <additionalHumus>2.4412</additionalHumus>
       <initializeAgeModification>+0</initializeAgeModification>
       <ageThreshold>0</ageThreshold>
@@ -657,8 +657,8 @@
       <biomassLeafNoffsiteFraction>0.2</biomassLeafNoffsiteFraction>
       <initializeActiveYears>1987-2015</initializeActiveYears>
       <biomassRootNoffsiteFraction>0</biomassRootNoffsiteFraction>
-      <trimOutputToWatershedBoundary>false</trimOutputToWatershedBoundary>
       <biomassAgStemNharvestFraction>0.3</biomassAgStemNharvestFraction>
+      <trimOutputToWatershedBoundary>false</trimOutputToWatershedBoundary>
     </Mowing_Grass>
   </disturbance>
   <mercury/>
@@ -682,19 +682,19 @@
       <initialHumusCarbon>15000.0</initialHumusCarbon>
       <setAllowExtremaAtLayer/>
       <nh4LossFraction>0.01</nh4LossFraction>
-      <pH>4.5</pH>
       <nitrificationToN2o>0.02</nitrificationToN2o>
+      <pH>4.5</pH>
       <ksVerticalExponentialDecayFactor>0.002305796</ksVerticalExponentialDecayFactor>
       <humusNmaxDecay>0.00028</humusNmaxDecay>
       <nitrificationK1>0.2</nitrificationK1>
       <uniqueName>sandy loam</uniqueName>
       <no3LossFraction>0.05</no3LossFraction>
-      <setSoilLayerThicknesses>500,500,500,500</setSoilLayerThicknesses>
       <wiltPoint>0.095</wiltPoint>
+      <setSoilLayerThicknesses/>
       <surfaceKs>771.198</surfaceKs>
-      <ksLateralExponentialDecayFactor>0.0000923</ksLateralExponentialDecayFactor>
-      <setSoilLayerKsVerticalValues/>
       <fieldCapacity>0.207</fieldCapacity>
+      <setSoilLayerKsVerticalValues/>
+      <ksLateralExponentialDecayFactor>0.0000923</ksLateralExponentialDecayFactor>
       <humusCtoN>35.7</humusCtoN>
     </Soil3_sandy_loam>
   </soil>
@@ -716,13 +716,7 @@
       <setStreamTemperatureModel>BASELINE_LINEAR</setStreamTemperatureModel>
       <useIsotopeCode>false</useIsotopeCode>
       <setEndStateSpatialDataLocationName/>
-      <notesText>2019-07-24 BLB
-Set up run years as follows: 
-Spin-up: 2002-2003
-Calib: 2004-2009
-Valid: 2010-2015
-
-2019-07-22 BLB 
+      <notesText>2019-07-22 BLB 
 Changed to Lenovo's specs. Added observed runoff for Taylor.
 
 2018-02-26 BLB 
