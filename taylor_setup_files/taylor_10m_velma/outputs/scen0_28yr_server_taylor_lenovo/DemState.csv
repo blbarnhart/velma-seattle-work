@@ -1,2 +1,0 @@
-DEM_File,DEM_Columns,DEM_Rows,DEM_Cell_Count,DEM_xll_Origin,DEM_yll_Origin,DEM_isLlCenter,DEM_noData_Value,Delineated_Columns,Delineated_Rows,Delineated_Min_X,Delineated_Max_X,Delineated_Min_Y,Delineated_Max_Y,Delineated_Cell_Count,Outlet_X,Outlet_Y,Cell_Size_(meters),Total_Contributors_Cell_Count
-taylor_Dredge_EEX_Flat_10m.asc,280,300,84000,555200.0,5259500.0,false,-9999.0,209,269,29,237,20,288,29335,152,20,10.0,0
