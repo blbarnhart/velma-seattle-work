@@ -1,0 +1,50 @@
+====== TAYLOR ====== 
+MAINSTEM SPU_STA401 = Taylor Creek (68TH AVE S)  XXXX
+
+
+====== LONGFELLOW ======
+MAINSTEM SPU_STA098A - Longfellow Creek (26TH Ave SW & SW Oregon St
+reet) Seattle Public Utilities site XXXX
+
+SPU_STA099 - Longfellow Creek (24TH Ave SW & SW Willow St
+reet) Seattle Public Utilities site
+
+
+====== PIPERS CREEK ======
+MAINSTEM SPU_STA508 - Carkeek Park (Pipers Creek) Seattle Public U
+tilities site XXXX
+
+SPU_MOLENMA4832 - Carkeek Park (Molendorph Creek) Seattle Publ
+ic Utilities site
+
+SPU_VENMA5720 - Carkeek Park (Venema Creek) Seattle Public U
+tilities site
+
+
+====== THORNTON ======
+north fork:
+SPU_STA066 - Thornton Creek North Branch (10TH Ave NE & 
+NE 135TH Street) Seattle Public Utilities site
+
+south fork: 
+SPU_STA039 - Thornton Creek South Branch (9TH Ave NE & N
+E 105TH Street) Seattle Public Utilities site
+
+confluence: 
+SPU_STA033 - Thornton Creek North Branch (35TH Ave NE & 
+NE 110TH Street) Seattle Public Utilities site
+
+outlet: 
+58A - Thornton Creek near Mouth, USGS 1212800 data
+ before 2013 XXXXX
+
+
+
+
+
+
+
+
+
+
+

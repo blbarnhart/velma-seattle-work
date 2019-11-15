@@ -1,0 +1,83 @@
+CONFIG 08:35:11 GlobalState: Simulation run spans 29 years (1987 to 2015)
+CONFIG 08:35:11 GlobalState: nstep=10592, ostep=10592
+CONFIG 08:35:11 GlobalState: START: Loading DEM Elevation Data from file="E:\velma-seattle-work\pipers_setup_files\pipersCreek_10m_velma\piper_Dredge_EEX_Flat_10m.asc"
+CONFIG 08:35:11 GlobalState: DEM Elevation Data: maxdem=152.0523 mindem=-26.495130000000145
+CONFIG 08:35:11 GlobalState:  DONE: Loading DEM Elevation Data
+CONFIG 08:35:11 GlobalState: START: Dimensioning other topography grids.
+CONFIG 08:35:11 GlobalState:  DONE: fdir, fid and facc dimensioned.
+CONFIG 08:35:11 GlobalState: Number of SpatialData Objects = 54
+CONFIG 08:35:11 GlobalState: Calibration data included.
+CONFIG 08:35:11 GlobalState: Number of TemporalData Objects = 74
+CONFIG 08:35:11 GlobalState: Reach Mapping = SOLO_MODE
+CONFIG 08:35:13 GlobalState: Actual: xfidMax=278 xfidMin=54
+CONFIG 08:35:13 GlobalState: Actual: yfidMax=471 yfidMin=23
+CONFIG 08:35:13 GlobalState: Actual: fidWidth=225 fidHeight=449
+CONFIG 08:35:13 GlobalState: fid Pixels=64593 Total Pixels=146657
+CONFIG 08:35:13 GlobalState: minFacc=1.0
+CONFIG 08:35:13 GlobalState: maxFacc=64592.99999999994
+CONFIG 08:35:13 GlobalState: minLogFacc=3.4011973816621555
+CONFIG 08:35:13 GlobalState: maxLogFacc=14.477058706428446
+CONFIG 08:35:28 SoilParameters: sandy loam: Calibration data included.
+CONFIG 08:35:28 SoilParameters: sandy loam: Number of TemporalData Objects = 1
+INFO 08:35:28 GlobalState: SoilParameters uniqueId=0 uniqueName="sandy loam" --> Loaded Successfully.
+CONFIG 08:35:28 GlobalState: Soil Parameterization Index Map file specified as: "E:\velma-seattle-work\pipers_setup_files\pipersCreek_10m_velma\piper_soil_10m.asc"
+CONFIG 08:35:28 GlobalState: SoilParameters uniqueId=0 uniqueName="sandy loam" Status=Loaded/IN-DEM
+CONFIG 08:35:28 GlobalState: Soil Parameterization Index Map loaded from file "E:\velma-seattle-work\pipers_setup_files\pipersCreek_10m_velma\piper_soil_10m.asc"
+CONFIG 08:35:28 GlobalState: Weather Model Object initialized for run: name=DefaultWeatherModel
+CONFIG 08:35:28 GlobalState: Tidewater Model: UNUSED (none specified in configuration)
+CONFIG 08:35:28 CoverSpecies: Cover4_Buildings: Calibration data included.
+CONFIG 08:35:28 CoverSpecies: Cover4_Buildings: Number of TemporalData Objects = 28
+INFO 08:35:28 GlobalState: CoverSpecies uniqueId=2 uniqueName="Cover4_Buildings" --> Loaded Successfully.
+CONFIG 08:35:28 CoverSpecies: Cover3_Grass: Calibration data included.
+CONFIG 08:35:28 CoverSpecies: Cover3_Grass: Number of TemporalData Objects = 28
+INFO 08:35:28 GlobalState: CoverSpecies uniqueId=14 uniqueName="Cover3_Grass" --> Loaded Successfully.
+CONFIG 08:35:28 CoverSpecies: Conifer: Calibration data included.
+CONFIG 08:35:28 CoverSpecies: Conifer: Number of TemporalData Objects = 28
+INFO 08:35:28 GlobalState: CoverSpecies uniqueId=3 uniqueName="Conifer" --> Loaded Successfully.
+CONFIG 08:35:28 CoverSpecies: Cover2_RoadsBuildings: Calibration data included.
+CONFIG 08:35:28 CoverSpecies: Cover2_RoadsBuildings: Number of TemporalData Objects = 28
+INFO 08:35:28 GlobalState: CoverSpecies uniqueId=13 uniqueName="Cover2_RoadsBuildings" --> Loaded Successfully.
+CONFIG 08:35:28 GlobalState: CoverSpecies uniqueId=2 uniqueName="Cover4_Buildings" Status=Loaded/IN-DEM
+CONFIG 08:35:28 GlobalState: CoverSpecies uniqueId=3 uniqueName="Conifer" Status=Loaded/IN-DEM
+CONFIG 08:35:28 GlobalState: CoverSpecies uniqueId=13 uniqueName="Cover2_RoadsBuildings" Status=Loaded/IN-DEM
+CONFIG 08:35:28 GlobalState: CoverSpecies uniqueId=14 uniqueName="Cover3_Grass" Status=Loaded/IN-DEM
+CONFIG 08:35:28 GlobalState: Cover Species Index Map loaded from file "E:\velma-seattle-work\pipers_setup_files\pipersCreek_10m_velma\piper_lulc_complex_10m.asc"
+CONFIG 08:35:28 GlobalState: Age Map loaded from file "E:\velma-seattle-work\pipers_setup_files\pipersCreek_10m_velma\piper_age_10m.asc", age range (0,28)
+CONFIG 08:35:28 GlobalState: Penumbra Model Engine: UNUSED
+CONFIG 08:35:29 GlobalState: Drainage Area=6.45930004 km^2 at outx=54 outy=193 cell id=55445
+CONFIG 08:35:29 GlobalState: Water Balance Convergence errthreshold=0.01
+CONFIG 08:35:29 GlobalState: Number of sid cells = 64593
+CONFIG 08:35:29 GlobalState: Recursion depth = 3
+CONFIG 08:35:29 GlobalState: USE_LEGACY_CATCHMENT_BORDER=false
+CONFIG 08:35:29 GlobalState: allowWaterBalanceExtremaFixup=false
+CONFIG 08:35:30 GlobalState: USE_CATCHMENT_AWARE_FACC=true
+CONFIG 08:35:30 GlobalState: Atmospheric N-deposition Mode=NIN_BANKED_MICHAELIS_MENTEN
+CONFIG 08:35:30 GlobalState: The sid zero cell is located at i=20625 x=248 y=71
+CONFIG 08:35:30 StreamTemperatureModelManager: Stream Temperature Option = BASELINE_LINEAR
+CONFIG 08:35:30 VelmaSimulatorEngine: End State Spatial Data Location: NOT SPECIFIED, End State Spatial Writers INACTIVE
+CONFIG 08:35:30 VelmaSimulatorEngine: Mercury Code is NOT running.
+CONFIG 08:35:30 DisturbanceModelManager: Disturbance Models Load Start: JVM Memory Snapshot (in Megabytes): estimated in-use=148838 free=173721 maximum=7420416 total=322560
+CONFIG 08:35:30 DisturbanceModelManager: Disturbance Models Load Stop:  JVM Memory Snapshot (in Megabytes): estimated in-use=148838 free=173721 maximum=7420416 total=322560
+CONFIG 08:35:30 VelmaSimulatorEngine: Current Disturbance Models:
+Irrigation Disturbance Model in Loops: 1 in Years: 1987-2015 on Jdays: 167-259 irrigationThreshold=3.630000114440918
+Fertilize LSR Disturbance Model coverIds=[14] Filter=OFF ageThreshold={[0, 2147483647]} Additional (gN/m2):  NH4=1.6356 NO3=0.8056 Humus=2.4412 depositionTargetOption=SURFACE Active on Loops=[1] Years=[1987-2015] Jdays=[122, 167, 245, 306]
+Harvest LSR Disturbance Model coverIds=[14] Filter=OFF ageThreshold={[0, 2147483647]} Fractions={harvest, offsite} LEAF={0.3, 0.2} AG_STEM={0.3, 0.2} BG_STEM={0.0, 0.0} ROOT={0.0, 0.0} Active on Loops=[1] Years=[1987-2015] Jdays=[61, 75, 92, 106, 122, 136, 153, 167, 183, 197, 214, 228, 245, 259]
+CONFIG 08:35:30 VelmaSimulatorEngine: Current Cell Data Writers:
+Cell Data Writer name=Outlet for x=54 y=193 index=55445
+CONFIG 08:35:30 VelmaSimulatorEngine: Current Spatial Data Writers:
+-- No Spatial Data Writers --
+Current Spatial Data Writer Data Sources Grouped by Output Location:
+
+CONFIG 08:35:30 VelmaSimulatorEngine: Lateral and Vertical Chemistry transportSelection==LV_COMBINED
+CONFIG 08:35:30 VelmaSimulatorEngine: ... model run initialization complete.
+CONFIG 08:35:30 VelmaSimulatorEngine: JVM Memory Snapshot (in Megabytes): estimated in-use=121416 free=171447 maximum=7420416 total=292864
+INFO 08:35:30 VelmaSimulatorEngine: stepByYear: 1987-1-1
+INFO 08:35:30 VelmaSimulatorEngine: Starting 1987-1-1 jDay=1 loop=1/1 loopStep=0 step=0 nstep=10592 ostep=10592
+INFO 08:35:30 GlobalState: Performing iStep=0 initialization of degree day accumulators; all values set to zero.
+WARNING 08:35:35 WaterBalance: At iStep=0 Subzero [cell,layer] water amount balance forced to zero 4 times.
+INFO 08:35:35 VelmaSimulatorEngine: Starting 1987-1-2 jDay=2 loop=1/1 loopStep=1 step=1 nstep=10592 ostep=10592
+SEVERE 08:35:40 VelmaSimulatorEngine: Caught Exception "Trapped prohibited value=NaN at WaterBalance.computeWaterBalance iCell=62988 iLayer= 0"
+java.lang.RuntimeException: Trapped prohibited value=NaN at WaterBalance.computeWaterBalance iCell=62988 iLayer= 0
+SEVERE 08:35:40 VelmaSimulatorEngine: Caught an exception during simulation at 1987-1-2 jDay=2 loop=1/1 loopStep=1 step=1 nstep=10592 ostep=10592
+SEVERE 08:35:40 VelmaSimulatorEngine: java.lang.RuntimeException: Trapped prohibited value=NaN at WaterBalance.computeWaterBalance iCell=62988 iLayer= 0
+SEVERE 08:35:40 VelmaSimulatorEngine: Shutting down.

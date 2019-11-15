@@ -1,0 +1,764 @@
+/calibration/VelmaCalibration.properties/DDs, 5.0
+/calibration/VelmaCalibration.properties/Tmlt, 2.0
+/calibration/VelmaCalibration.properties/Tsn, -1.0
+/calibration/VelmaCalibration.properties/avgAT, 8.2
+/calibration/VelmaCalibration.properties/avgGST, 8.5
+/calibration/VelmaCalibration.properties/be, 10.4827635
+/calibration/VelmaCalibration.properties/co2RespirationFraction, 0.99
+/calibration/VelmaCalibration.properties/deg_lat, 44.205122
+/calibration/VelmaCalibration.properties/deg_lon, -122.261516
+/calibration/VelmaCalibration.properties/denitDiffusivity, 9.5
+/calibration/VelmaCalibration.properties/disablePsmWaterStressor, false
+/calibration/VelmaCalibration.properties/docSolubilityCoefficient, 0.0
+/calibration/VelmaCalibration.properties/donSolubilityCoefficient, 0.0
+/calibration/VelmaCalibration.properties/dry_nin, 0.1
+/calibration/VelmaCalibration.properties/enableHaltOnTransportBalanceCheckFail, true
+/calibration/VelmaCalibration.properties/enableTopographySpatialDataOutput, true
+/calibration/VelmaCalibration.properties/enableTransportBalanceCheck, true
+/calibration/VelmaCalibration.properties/enableWaterBalanceReport, true
+/calibration/VelmaCalibration.properties/errthreshold, 0.010
+/calibration/VelmaCalibration.properties/initialNh4, 0.1
+/calibration/VelmaCalibration.properties/initialNo3, 0.1
+/calibration/VelmaCalibration.properties/initialUniformSoilMoisture, 0.453
+/calibration/VelmaCalibration.properties/initial_doc, 30.0
+/calibration/VelmaCalibration.properties/initial_don, 1.5
+/calibration/VelmaCalibration.properties/isc, 1367.0
+/calibration/VelmaCalibration.properties/iteration, 100
+/calibration/VelmaCalibration.properties/microbeCefficiency, 0.45
+/calibration/VelmaCalibration.properties/moistureUptakeK, 5.5
+/calibration/VelmaCalibration.properties/nashSutcliffeEndYearForRunoffStats, 2009
+/calibration/VelmaCalibration.properties/nashSutcliffeStartYearForRunoffStats, 2004
+/calibration/VelmaCalibration.properties/nh4SolubilityCoefficient, 0.0
+/calibration/VelmaCalibration.properties/ninBankInitialSpinUpValue, 0.0
+/calibration/VelmaCalibration.properties/ninHalfSaturationKnForLossFromNinBank, 40.0
+/calibration/VelmaCalibration.properties/ninMaxLossFromNinBankPerDay, 0.1
+/calibration/VelmaCalibration.properties/ninSolubilityCoefficient, 0.05
+/calibration/VelmaCalibration.properties/no3SolubilityCoefficient, 0.0
+/calibration/VelmaCalibration.properties/parallelEdgeRecursionDepth, 3
+/calibration/VelmaCalibration.properties/performDenitrificationAfterWaterTransport, false
+/calibration/VelmaCalibration.properties/permeabilityFractionsFileName, pervious_lulc_taylor_1m.asc
+/calibration/VelmaCalibration.properties/psm_q, 0.015
+/calibration/VelmaCalibration.properties/roair, 1300.0
+/calibration/VelmaCalibration.properties/ros, 0.5
+/calibration/VelmaCalibration.properties/setGroundwaterStorageFraction, 
+/calibration/VelmaCalibration.properties/setInflowCapacityLimiterMode, ALL_LAYERS
+/calibration/VelmaCalibration.properties/setNitrificationFunctionSelection, DEL_GROSSO_XLS_2013
+/calibration/VelmaCalibration.properties/setPermeabilityFraction, pervious_lulc_taylor_1m.asc
+/calibration/VelmaCalibration.properties/setWaterBalanceExtremaFixup, false
+/calibration/VelmaCalibration.properties/sr1, 2.5
+/calibration/VelmaCalibration.properties/sr2, 1.0
+/calibration/VelmaCalibration.properties/srth, 0.12
+/calibration/VelmaCalibration.properties/trimTopographyOutputToWatershedBoundary, false
+/calibration/VelmaCalibration.properties/useDenitrification, false
+/calibration/VelmaCalibration.properties/useEtUptake, false
+/calibration/VelmaCalibration.properties/useExperimentalNin, true
+/calibration/VelmaCalibration.properties/useNitrification, false
+/calibration/VelmaCalibration.properties/useSoilTemperature, true
+/calibration/VelmaCalibration.properties/warmestMaxAverageMonthlyTemperature, 25
+/calibration/VelmaCalibration.properties/wet_nin, 0.1
+/calibration/VelmaInputs.properties/coverAgeMapFileName, taylor_age_10m.asc
+/calibration/VelmaInputs.properties/coverSpeciesIndexMapFileName, taylor_lulc_complex_10m.asc
+/calibration/VelmaInputs.properties/csvTraceLogFileName, GlobalTraceLog.csv
+/calibration/VelmaInputs.properties/delineationManfestLocationName, 
+/calibration/VelmaInputs.properties/enableReachMapping, SOLO_MODE
+/calibration/VelmaInputs.properties/eyear, 2009
+/calibration/VelmaInputs.properties/f_ksl, 0.00155
+/calibration/VelmaInputs.properties/f_ksv, 0.0013
+/calibration/VelmaInputs.properties/flowAccumulationFileName, 
+/calibration/VelmaInputs.properties/flowDirectionFileName, 
+/calibration/VelmaInputs.properties/forcing_end, 2015
+/calibration/VelmaInputs.properties/forcing_start, 1987
+/calibration/VelmaInputs.properties/globalStateLogFileName, GlobalStateLog.txt
+/calibration/VelmaInputs.properties/initialReachOutlets, 
+/calibration/VelmaInputs.properties/initializeOutputDataLocationRoot, E:\velma-seattle-work\taylor_setup_files\outputs
+/calibration/VelmaInputs.properties/initializeSoilDepth, 0.25, 0.25, 0.25, 0.25
+/calibration/VelmaInputs.properties/input_at, 
+/calibration/VelmaInputs.properties/input_dem, taylor_Dredge_EEX_Flat_10m.asc
+/calibration/VelmaInputs.properties/input_rain, 
+/calibration/VelmaInputs.properties/input_runoff, obs_mmday_taylor_1987-2015.csv
+/calibration/VelmaInputs.properties/input_soil_depth, 
+/calibration/VelmaInputs.properties/input_soil_txt, 
+/calibration/VelmaInputs.properties/input_stream_chem, 
+/calibration/VelmaInputs.properties/ks, 600.0
+/calibration/VelmaInputs.properties/numberOfLoops, 1
+/calibration/VelmaInputs.properties/outx, 152
+/calibration/VelmaInputs.properties/outy, 20
+/calibration/VelmaInputs.properties/reachOutletsFileName, 
+/calibration/VelmaInputs.properties/reportAllCoverResults, false
+/calibration/VelmaInputs.properties/reportAllSoilResults, false
+/calibration/VelmaInputs.properties/run_index, scen0_calib_server_taylor_infAll_v2_2004-2009_blb
+/calibration/VelmaInputs.properties/sdmm, 2.0
+/calibration/VelmaInputs.properties/soilParametersIndexMapFileName, taylor_soil_10m.asc
+/calibration/VelmaInputs.properties/stty, 3
+/calibration/VelmaInputs.properties/syear, 2002
+/cellDataWriter/Outlet/cellX, 54
+/cellDataWriter/Outlet/cellY, 193
+/cellDataWriter/Outlet/initializeActiveJdays, 1-366
+/cover/Cover1_Conifer/GaleGrigalBetaParam, 0.976
+/cover/Cover1_Conifer/allowUptakeAfterSenescence, true
+/cover/Cover1_Conifer/biomassAgStemCtoN, 857
+/cover/Cover1_Conifer/biomassBgStemCtoN, 533
+/cover/Cover1_Conifer/biomassLeafCtoN, 46
+/cover/Cover1_Conifer/biomassRootCtoN, 77
+/cover/Cover1_Conifer/degreeDayBase, 2.0
+/cover/Cover1_Conifer/degreeDayThreshold, 2.0
+/cover/Cover1_Conifer/detritusAgStemCtoN, 857
+/cover/Cover1_Conifer/detritusAgStemNmaxDecay, 0.00112
+/cover/Cover1_Conifer/detritusBgStemCtoN, 533
+/cover/Cover1_Conifer/detritusBgStemNmaxDecay, 0.00112
+/cover/Cover1_Conifer/detritusLeafCtoN, 46
+/cover/Cover1_Conifer/detritusLeafNmaxDecay, 0.0033
+/cover/Cover1_Conifer/detritusRootCtoN, 77
+/cover/Cover1_Conifer/detritusRootNmaxDecay, 0.008
+/cover/Cover1_Conifer/etRecoveryFractionIntercept, 0.1908
+/cover/Cover1_Conifer/etRecoveryFractionMinimumLeafBiomassC, 0.0
+/cover/Cover1_Conifer/etRecoveryFractionMinimumValue, 0.30
+/cover/Cover1_Conifer/etRecoveryFractionSlope, 0.0055
+/cover/Cover1_Conifer/initialBiomassAgStemCarbon, 33816
+/cover/Cover1_Conifer/initialBiomassBgStemCarbon, 6782
+/cover/Cover1_Conifer/initialBiomassLeafCarbon, 667
+/cover/Cover1_Conifer/initialBiomassRootCarbon, 542
+/cover/Cover1_Conifer/initialDetritusAgStemCarbon, 11933
+/cover/Cover1_Conifer/initialDetritusBgStemCarbon, 2580
+/cover/Cover1_Conifer/initialDetritusLeafCarbon, 854
+/cover/Cover1_Conifer/initialDetritusRootCarbon, 552
+/cover/Cover1_Conifer/insulationCarbonUpperBound, 700.0
+/cover/Cover1_Conifer/insulationEfficiency, 0.0
+/cover/Cover1_Conifer/jDaySenescenceOff, 366
+/cover/Cover1_Conifer/jDaySenescenceOn, 350
+/cover/Cover1_Conifer/jDayUptakeFirstAllowed, 1
+/cover/Cover1_Conifer/mortalityAgStemAnnualFraction, 1.0
+/cover/Cover1_Conifer/mortalityAgStemDenominatorCoefficient, 15.0
+/cover/Cover1_Conifer/mortalityAgStemExponentialCoefficient, 0.11
+/cover/Cover1_Conifer/mortalityAgStemNumeratorCoefficient, 1.0
+/cover/Cover1_Conifer/mortalityBgStemAnnualFraction, 1.0
+/cover/Cover1_Conifer/mortalityBgStemDenominatorCoefficient, 5.0
+/cover/Cover1_Conifer/mortalityBgStemExponentialCoefficient, 0.07
+/cover/Cover1_Conifer/mortalityBgStemNumeratorCoefficient, 1.0
+/cover/Cover1_Conifer/mortalityLeafAnnualFraction, 1.0
+/cover/Cover1_Conifer/mortalityLeafDenominatorCoefficient, 10.0
+/cover/Cover1_Conifer/mortalityLeafExponentialCoefficient, 0.8
+/cover/Cover1_Conifer/mortalityLeafNumeratorCoefficient, 1.0
+/cover/Cover1_Conifer/mortalityRootAnnualFraction, 1.0
+/cover/Cover1_Conifer/mortalityRootDenominatorCoefficient, 0.5
+/cover/Cover1_Conifer/mortalityRootExponentialCoefficient, 0.2
+/cover/Cover1_Conifer/mortalityRootNumeratorCoefficient, 1.0
+/cover/Cover1_Conifer/nh4Kn, 0.5
+/cover/Cover1_Conifer/nh4MaximumUptakeRate, 0.100
+/cover/Cover1_Conifer/nitrogenFixationAsymbioticMaximum, 0.0
+/cover/Cover1_Conifer/nitrogenFixationMoistureScalarK, 1.6
+/cover/Cover1_Conifer/nitrogenFixationMoistureScalarLambda, 0.77
+/cover/Cover1_Conifer/nitrogenFixationSymbioticMaximum, 0.0
+/cover/Cover1_Conifer/nitrogenFixationTemperatureScalarCurvature, 0.40
+/cover/Cover1_Conifer/nitrogenFixationTemperatureScalarMaximumT, 48.0
+/cover/Cover1_Conifer/nitrogenFixationTemperatureScalarOptimumT, 25.0
+/cover/Cover1_Conifer/nitrogenFixationUptakeFraction, 0.5
+/cover/Cover1_Conifer/nitrogenFixerFraction, 0.0
+/cover/Cover1_Conifer/no3Kn, 0.5
+/cover/Cover1_Conifer/no3MaximumUptakeRate, 0.066
+/cover/Cover1_Conifer/noTranspirationPetFraction, 1.0
+/cover/Cover1_Conifer/nppToBiomassAgStemNfraction, 0.8
+/cover/Cover1_Conifer/nppToBiomassLeafNfraction, 0.55
+/cover/Cover1_Conifer/nppToBiomassRootNfraction, 0.35
+/cover/Cover1_Conifer/petParam1, 0.589978435
+/cover/Cover1_Conifer/petParam2, 0.622
+/cover/Cover1_Conifer/seedlingValueAgStemCarbon, 0.0
+/cover/Cover1_Conifer/seedlingValueBgStemCarbon, 0.0
+/cover/Cover1_Conifer/seedlingValueLeafCarbon, 0.0
+/cover/Cover1_Conifer/seedlingValueRootCarbon, 0.0
+/cover/Cover1_Conifer/temperaturePetOff, -3
+/cover/Cover1_Conifer/transpirationLimiterCoeffA, 0.35
+/cover/Cover1_Conifer/transpirationLimiterCoeffB, 0.000006
+/cover/Cover1_Conifer/transpirationLimiterCoeffC, 0.000091
+/cover/Cover1_Conifer/transpirationLimiterCoeffD, 0.65
+/cover/Cover1_Conifer/transpirationLimiterJdayOff, 273
+/cover/Cover1_Conifer/transpirationLimiterJdayOn, 152
+/cover/Cover1_Conifer/transpirationLimiterMaxTotalBiomassC, 42000.0
+/cover/Cover1_Conifer/uniqueId, 3
+/cover/Cover1_Conifer/uniqueName, Conifer
+/cover/Cover1_Conifer/uptakeCurvature, 0.5
+/cover/Cover1_Conifer/uptakeMaximumT, 50.0
+/cover/Cover1_Conifer/uptakeOptimumT, 25.0
+/cover/Cover1_Conifer/useEtRecoveryFraction, true
+/cover/Cover1_Conifer/useLinearMortalityAgStem, false
+/cover/Cover1_Conifer/useLinearMortalityBgStem, false
+/cover/Cover1_Conifer/useLinearMortalityLeaf, false
+/cover/Cover1_Conifer/useLinearMortalityRoot, false
+/cover/Cover1_Conifer/useNitrogenFixation, false
+/cover/Cover1_Conifer/useTranspirationLimiter, false
+/cover/Cover2_Roads/GaleGrigalBetaParam, 0
+/cover/Cover2_Roads/allowUptakeAfterSenescence, false
+/cover/Cover2_Roads/biomassAgStemCtoN, 0.001
+/cover/Cover2_Roads/biomassBgStemCtoN, 0.001
+/cover/Cover2_Roads/biomassLeafCtoN, 50
+/cover/Cover2_Roads/biomassRootCtoN, 70
+/cover/Cover2_Roads/degreeDayBase, 0
+/cover/Cover2_Roads/degreeDayThreshold, 0
+/cover/Cover2_Roads/detritusAgStemCtoN, 0.001
+/cover/Cover2_Roads/detritusAgStemNmaxDecay, 0.001
+/cover/Cover2_Roads/detritusBgStemCtoN, 0.001
+/cover/Cover2_Roads/detritusBgStemNmaxDecay, 0
+/cover/Cover2_Roads/detritusLeafCtoN, 50
+/cover/Cover2_Roads/detritusLeafNmaxDecay, 0
+/cover/Cover2_Roads/detritusRootCtoN, 70
+/cover/Cover2_Roads/detritusRootNmaxDecay, 0
+/cover/Cover2_Roads/etRecoveryFractionIntercept, 0.0
+/cover/Cover2_Roads/etRecoveryFractionMinimumLeafBiomassC, 0.0
+/cover/Cover2_Roads/etRecoveryFractionMinimumValue, 0.30
+/cover/Cover2_Roads/etRecoveryFractionSlope, 0.0
+/cover/Cover2_Roads/initialBiomassAgStemCarbon, 1
+/cover/Cover2_Roads/initialBiomassBgStemCarbon, 1
+/cover/Cover2_Roads/initialBiomassLeafCarbon, 1
+/cover/Cover2_Roads/initialBiomassRootCarbon, 1
+/cover/Cover2_Roads/initialDetritusAgStemCarbon, 1
+/cover/Cover2_Roads/initialDetritusBgStemCarbon, 1
+/cover/Cover2_Roads/initialDetritusLeafCarbon, 1
+/cover/Cover2_Roads/initialDetritusRootCarbon, 1
+/cover/Cover2_Roads/insulationCarbonUpperBound, 0
+/cover/Cover2_Roads/insulationEfficiency, 0
+/cover/Cover2_Roads/jDaySenescenceOff, 367
+/cover/Cover2_Roads/jDaySenescenceOn, 0
+/cover/Cover2_Roads/jDayUptakeFirstAllowed, 1
+/cover/Cover2_Roads/mortalityAgStemAnnualFraction, 1.0
+/cover/Cover2_Roads/mortalityAgStemDenominatorCoefficient, 0.0
+/cover/Cover2_Roads/mortalityAgStemExponentialCoefficient, 0.0
+/cover/Cover2_Roads/mortalityAgStemNumeratorCoefficient, 0.0
+/cover/Cover2_Roads/mortalityBgStemAnnualFraction, 1.0
+/cover/Cover2_Roads/mortalityBgStemDenominatorCoefficient, 0.0
+/cover/Cover2_Roads/mortalityBgStemExponentialCoefficient, 0.0
+/cover/Cover2_Roads/mortalityBgStemNumeratorCoefficient, 0.0
+/cover/Cover2_Roads/mortalityLeafAnnualFraction, 1.0
+/cover/Cover2_Roads/mortalityLeafDenominatorCoefficient, 0.0
+/cover/Cover2_Roads/mortalityLeafExponentialCoefficient, 0.0
+/cover/Cover2_Roads/mortalityLeafNumeratorCoefficient, 0.0
+/cover/Cover2_Roads/mortalityRootAnnualFraction, 1.0
+/cover/Cover2_Roads/mortalityRootDenominatorCoefficient, 0.0
+/cover/Cover2_Roads/mortalityRootExponentialCoefficient, 0.0
+/cover/Cover2_Roads/mortalityRootNumeratorCoefficient, 0.0
+/cover/Cover2_Roads/nh4Kn, 0
+/cover/Cover2_Roads/nh4MaximumUptakeRate, 0
+/cover/Cover2_Roads/nitrogenFixationAsymbioticMaximum, 0.0
+/cover/Cover2_Roads/nitrogenFixationMoistureScalarK, 1.6
+/cover/Cover2_Roads/nitrogenFixationMoistureScalarLambda, 0.77
+/cover/Cover2_Roads/nitrogenFixationSymbioticMaximum, 0.0
+/cover/Cover2_Roads/nitrogenFixationTemperatureScalarCurvature, 0.40
+/cover/Cover2_Roads/nitrogenFixationTemperatureScalarMaximumT, 48.0
+/cover/Cover2_Roads/nitrogenFixationTemperatureScalarOptimumT, 25.0
+/cover/Cover2_Roads/nitrogenFixationUptakeFraction, 0.5
+/cover/Cover2_Roads/nitrogenFixerFraction, 0.0
+/cover/Cover2_Roads/no3Kn, 0
+/cover/Cover2_Roads/no3MaximumUptakeRate, 0
+/cover/Cover2_Roads/noTranspirationPetFraction, 0.0
+/cover/Cover2_Roads/nppToBiomassAgStemNfraction, 0.8
+/cover/Cover2_Roads/nppToBiomassLeafNfraction, 0.25
+/cover/Cover2_Roads/nppToBiomassRootNfraction, 0.25
+/cover/Cover2_Roads/petParam1, 0
+/cover/Cover2_Roads/petParam2, 0
+/cover/Cover2_Roads/seedlingValueAgStemCarbon, 0.0
+/cover/Cover2_Roads/seedlingValueBgStemCarbon, 0.0
+/cover/Cover2_Roads/seedlingValueLeafCarbon, 0.0
+/cover/Cover2_Roads/seedlingValueRootCarbon, 0.0
+/cover/Cover2_Roads/temperaturePetOff, 0
+/cover/Cover2_Roads/transpirationLimiterCoeffA, 0
+/cover/Cover2_Roads/transpirationLimiterCoeffB, 0
+/cover/Cover2_Roads/transpirationLimiterCoeffC, 0
+/cover/Cover2_Roads/transpirationLimiterCoeffD, 1
+/cover/Cover2_Roads/transpirationLimiterJdayOff, 366
+/cover/Cover2_Roads/transpirationLimiterJdayOn, 1
+/cover/Cover2_Roads/transpirationLimiterMaxTotalBiomassC, 0
+/cover/Cover2_Roads/uniqueId, 13
+/cover/Cover2_Roads/uniqueName, Cover2_RoadsBuildings
+/cover/Cover2_Roads/uptakeCurvature, 0
+/cover/Cover2_Roads/uptakeMaximumT, 0
+/cover/Cover2_Roads/uptakeOptimumT, 0
+/cover/Cover2_Roads/useEtRecoveryFraction, false
+/cover/Cover2_Roads/useLinearMortalityAgStem, false
+/cover/Cover2_Roads/useLinearMortalityBgStem, false
+/cover/Cover2_Roads/useLinearMortalityLeaf, false
+/cover/Cover2_Roads/useLinearMortalityRoot, false
+/cover/Cover2_Roads/useNitrogenFixation, false
+/cover/Cover2_Roads/useTranspirationLimiter, false
+/cover/Cover3_Grass/GaleGrigalBetaParam, 0.943
+/cover/Cover3_Grass/allowUptakeAfterSenescence, true
+/cover/Cover3_Grass/biomassAgStemCtoN, 67
+/cover/Cover3_Grass/biomassBgStemCtoN, 67
+/cover/Cover3_Grass/biomassLeafCtoN, 59
+/cover/Cover3_Grass/biomassRootCtoN, 90
+/cover/Cover3_Grass/degreeDayBase, 10
+/cover/Cover3_Grass/degreeDayThreshold, 50
+/cover/Cover3_Grass/detritusAgStemCtoN, 67
+/cover/Cover3_Grass/detritusAgStemNmaxDecay, 0.002
+/cover/Cover3_Grass/detritusBgStemCtoN, 67
+/cover/Cover3_Grass/detritusBgStemNmaxDecay, 0.015
+/cover/Cover3_Grass/detritusLeafCtoN, 59
+/cover/Cover3_Grass/detritusLeafNmaxDecay, 0.015
+/cover/Cover3_Grass/detritusRootCtoN, 90
+/cover/Cover3_Grass/detritusRootNmaxDecay, 0.013
+/cover/Cover3_Grass/etRecoveryFractionIntercept, 0.0257
+/cover/Cover3_Grass/etRecoveryFractionMinimumLeafBiomassC, 62.0
+/cover/Cover3_Grass/etRecoveryFractionMinimumValue, 0.2
+/cover/Cover3_Grass/etRecoveryFractionSlope, 0.0062
+/cover/Cover3_Grass/initialBiomassAgStemCarbon, 1.0
+/cover/Cover3_Grass/initialBiomassBgStemCarbon, 116
+/cover/Cover3_Grass/initialBiomassLeafCarbon, 1.0
+/cover/Cover3_Grass/initialBiomassRootCarbon, 286
+/cover/Cover3_Grass/initialDetritusAgStemCarbon, 48
+/cover/Cover3_Grass/initialDetritusBgStemCarbon, 39
+/cover/Cover3_Grass/initialDetritusLeafCarbon, 253
+/cover/Cover3_Grass/initialDetritusRootCarbon, 264
+/cover/Cover3_Grass/insulationCarbonUpperBound, 400
+/cover/Cover3_Grass/insulationEfficiency, 0.5
+/cover/Cover3_Grass/jDaySenescenceOff, 365
+/cover/Cover3_Grass/jDaySenescenceOn, 263
+/cover/Cover3_Grass/jDayUptakeFirstAllowed, 91
+/cover/Cover3_Grass/mortalityAgStemAnnualFraction, 1.0
+/cover/Cover3_Grass/mortalityAgStemDenominatorCoefficient, 0.1
+/cover/Cover3_Grass/mortalityAgStemExponentialCoefficient, 80.0
+/cover/Cover3_Grass/mortalityAgStemNumeratorCoefficient, 1.0
+/cover/Cover3_Grass/mortalityBgStemAnnualFraction, 1.0
+/cover/Cover3_Grass/mortalityBgStemDenominatorCoefficient, 40.0
+/cover/Cover3_Grass/mortalityBgStemExponentialCoefficient, 5.0
+/cover/Cover3_Grass/mortalityBgStemNumeratorCoefficient, 1.0
+/cover/Cover3_Grass/mortalityLeafAnnualFraction, 1.0
+/cover/Cover3_Grass/mortalityLeafDenominatorCoefficient, 1.0
+/cover/Cover3_Grass/mortalityLeafExponentialCoefficient, 40.0
+/cover/Cover3_Grass/mortalityLeafNumeratorCoefficient, 1.0
+/cover/Cover3_Grass/mortalityRootAnnualFraction, 1.0
+/cover/Cover3_Grass/mortalityRootDenominatorCoefficient, 80.0
+/cover/Cover3_Grass/mortalityRootExponentialCoefficient, 3.0
+/cover/Cover3_Grass/mortalityRootNumeratorCoefficient, 1.0
+/cover/Cover3_Grass/nh4Kn, 0.3
+/cover/Cover3_Grass/nh4MaximumUptakeRate, 1.5
+/cover/Cover3_Grass/nitrogenFixationAsymbioticMaximum, 0.0
+/cover/Cover3_Grass/nitrogenFixationMoistureScalarK, 1.6
+/cover/Cover3_Grass/nitrogenFixationMoistureScalarLambda, 0.77
+/cover/Cover3_Grass/nitrogenFixationSymbioticMaximum, 0.0
+/cover/Cover3_Grass/nitrogenFixationTemperatureScalarCurvature, 0.40
+/cover/Cover3_Grass/nitrogenFixationTemperatureScalarMaximumT, 48.0
+/cover/Cover3_Grass/nitrogenFixationTemperatureScalarOptimumT, 25.0
+/cover/Cover3_Grass/nitrogenFixationUptakeFraction, 0.5
+/cover/Cover3_Grass/nitrogenFixerFraction, 0.0
+/cover/Cover3_Grass/no3Kn, 0.3
+/cover/Cover3_Grass/no3MaximumUptakeRate, 1.5
+/cover/Cover3_Grass/noTranspirationPetFraction, 1
+/cover/Cover3_Grass/nppToBiomassAgStemNfraction, 0.08
+/cover/Cover3_Grass/nppToBiomassLeafNfraction, 0.5
+/cover/Cover3_Grass/nppToBiomassRootNfraction, 0.29
+/cover/Cover3_Grass/petParam1, 0.296480062
+/cover/Cover3_Grass/petParam2, 0.622
+/cover/Cover3_Grass/seedlingValueAgStemCarbon, 1.0
+/cover/Cover3_Grass/seedlingValueBgStemCarbon, 1.0
+/cover/Cover3_Grass/seedlingValueLeafCarbon, 1.0
+/cover/Cover3_Grass/seedlingValueRootCarbon, 1.0
+/cover/Cover3_Grass/temperaturePetOff, -3
+/cover/Cover3_Grass/transpirationLimiterCoeffA, 0.0
+/cover/Cover3_Grass/transpirationLimiterCoeffB, 0.0
+/cover/Cover3_Grass/transpirationLimiterCoeffC, 0.0
+/cover/Cover3_Grass/transpirationLimiterCoeffD, 1.0
+/cover/Cover3_Grass/transpirationLimiterJdayOff, 305
+/cover/Cover3_Grass/transpirationLimiterJdayOn, 91
+/cover/Cover3_Grass/transpirationLimiterMaxTotalBiomassC, 0
+/cover/Cover3_Grass/uniqueId, 14
+/cover/Cover3_Grass/uniqueName, Cover3_Grass
+/cover/Cover3_Grass/uptakeCurvature, 0.5
+/cover/Cover3_Grass/uptakeMaximumT, 50.0
+/cover/Cover3_Grass/uptakeOptimumT, 30.0
+/cover/Cover3_Grass/useEtRecoveryFraction, true
+/cover/Cover3_Grass/useLinearMortalityAgStem, false
+/cover/Cover3_Grass/useLinearMortalityBgStem, false
+/cover/Cover3_Grass/useLinearMortalityLeaf, false
+/cover/Cover3_Grass/useLinearMortalityRoot, false
+/cover/Cover3_Grass/useNitrogenFixation, false
+/cover/Cover3_Grass/useTranspirationLimiter, false
+/cover/Cover4_Buildings/GaleGrigalBetaParam, 0
+/cover/Cover4_Buildings/allowUptakeAfterSenescence, false
+/cover/Cover4_Buildings/biomassAgStemCtoN, 0.001
+/cover/Cover4_Buildings/biomassBgStemCtoN, 0.001
+/cover/Cover4_Buildings/biomassLeafCtoN, 50
+/cover/Cover4_Buildings/biomassRootCtoN, 70
+/cover/Cover4_Buildings/degreeDayBase, 0
+/cover/Cover4_Buildings/degreeDayThreshold, 0
+/cover/Cover4_Buildings/detritusAgStemCtoN, 0.001
+/cover/Cover4_Buildings/detritusAgStemNmaxDecay, 0.001
+/cover/Cover4_Buildings/detritusBgStemCtoN, 0.001
+/cover/Cover4_Buildings/detritusBgStemNmaxDecay, 0
+/cover/Cover4_Buildings/detritusLeafCtoN, 50
+/cover/Cover4_Buildings/detritusLeafNmaxDecay, 0
+/cover/Cover4_Buildings/detritusRootCtoN, 70
+/cover/Cover4_Buildings/detritusRootNmaxDecay, 0
+/cover/Cover4_Buildings/etRecoveryFractionIntercept, 0.0
+/cover/Cover4_Buildings/etRecoveryFractionMinimumLeafBiomassC, 0.0
+/cover/Cover4_Buildings/etRecoveryFractionMinimumValue, 0.30
+/cover/Cover4_Buildings/etRecoveryFractionSlope, 0.0
+/cover/Cover4_Buildings/initialBiomassAgStemCarbon, 1
+/cover/Cover4_Buildings/initialBiomassBgStemCarbon, 1
+/cover/Cover4_Buildings/initialBiomassLeafCarbon, 1
+/cover/Cover4_Buildings/initialBiomassRootCarbon, 1
+/cover/Cover4_Buildings/initialDetritusAgStemCarbon, 1
+/cover/Cover4_Buildings/initialDetritusBgStemCarbon, 1
+/cover/Cover4_Buildings/initialDetritusLeafCarbon, 1
+/cover/Cover4_Buildings/initialDetritusRootCarbon, 1
+/cover/Cover4_Buildings/insulationCarbonUpperBound, 0
+/cover/Cover4_Buildings/insulationEfficiency, 0
+/cover/Cover4_Buildings/jDaySenescenceOff, 367
+/cover/Cover4_Buildings/jDaySenescenceOn, 0
+/cover/Cover4_Buildings/jDayUptakeFirstAllowed, 1
+/cover/Cover4_Buildings/mortalityAgStemAnnualFraction, 1.0
+/cover/Cover4_Buildings/mortalityAgStemDenominatorCoefficient, 0.0
+/cover/Cover4_Buildings/mortalityAgStemExponentialCoefficient, 0.0
+/cover/Cover4_Buildings/mortalityAgStemNumeratorCoefficient, 0.0
+/cover/Cover4_Buildings/mortalityBgStemAnnualFraction, 1.0
+/cover/Cover4_Buildings/mortalityBgStemDenominatorCoefficient, 0.0
+/cover/Cover4_Buildings/mortalityBgStemExponentialCoefficient, 0.0
+/cover/Cover4_Buildings/mortalityBgStemNumeratorCoefficient, 0.0
+/cover/Cover4_Buildings/mortalityLeafAnnualFraction, 1.0
+/cover/Cover4_Buildings/mortalityLeafDenominatorCoefficient, 0.0
+/cover/Cover4_Buildings/mortalityLeafExponentialCoefficient, 0.0
+/cover/Cover4_Buildings/mortalityLeafNumeratorCoefficient, 0.0
+/cover/Cover4_Buildings/mortalityRootAnnualFraction, 1.0
+/cover/Cover4_Buildings/mortalityRootDenominatorCoefficient, 0.0
+/cover/Cover4_Buildings/mortalityRootExponentialCoefficient, 0.0
+/cover/Cover4_Buildings/mortalityRootNumeratorCoefficient, 0.0
+/cover/Cover4_Buildings/nh4Kn, 0
+/cover/Cover4_Buildings/nh4MaximumUptakeRate, 0
+/cover/Cover4_Buildings/nitrogenFixationAsymbioticMaximum, 0.0
+/cover/Cover4_Buildings/nitrogenFixationMoistureScalarK, 1.6
+/cover/Cover4_Buildings/nitrogenFixationMoistureScalarLambda, 0.77
+/cover/Cover4_Buildings/nitrogenFixationSymbioticMaximum, 0.0
+/cover/Cover4_Buildings/nitrogenFixationTemperatureScalarCurvature, 0.40
+/cover/Cover4_Buildings/nitrogenFixationTemperatureScalarMaximumT, 48.0
+/cover/Cover4_Buildings/nitrogenFixationTemperatureScalarOptimumT, 25.0
+/cover/Cover4_Buildings/nitrogenFixationUptakeFraction, 0.5
+/cover/Cover4_Buildings/nitrogenFixerFraction, 0.0
+/cover/Cover4_Buildings/no3Kn, 0
+/cover/Cover4_Buildings/no3MaximumUptakeRate, 0
+/cover/Cover4_Buildings/noTranspirationPetFraction, 0.0
+/cover/Cover4_Buildings/nppToBiomassAgStemNfraction, 0.8
+/cover/Cover4_Buildings/nppToBiomassLeafNfraction, 0.25
+/cover/Cover4_Buildings/nppToBiomassRootNfraction, 0.25
+/cover/Cover4_Buildings/petParam1, 0
+/cover/Cover4_Buildings/petParam2, 0
+/cover/Cover4_Buildings/seedlingValueAgStemCarbon, 0.0
+/cover/Cover4_Buildings/seedlingValueBgStemCarbon, 0.0
+/cover/Cover4_Buildings/seedlingValueLeafCarbon, 0.0
+/cover/Cover4_Buildings/seedlingValueRootCarbon, 0.0
+/cover/Cover4_Buildings/temperaturePetOff, 0
+/cover/Cover4_Buildings/transpirationLimiterCoeffA, 0
+/cover/Cover4_Buildings/transpirationLimiterCoeffB, 0
+/cover/Cover4_Buildings/transpirationLimiterCoeffC, 0
+/cover/Cover4_Buildings/transpirationLimiterCoeffD, 1
+/cover/Cover4_Buildings/transpirationLimiterJdayOff, 366
+/cover/Cover4_Buildings/transpirationLimiterJdayOn, 1
+/cover/Cover4_Buildings/transpirationLimiterMaxTotalBiomassC, 0
+/cover/Cover4_Buildings/uniqueId, 2
+/cover/Cover4_Buildings/uniqueName, Cover4_Buildings
+/cover/Cover4_Buildings/uptakeCurvature, 0
+/cover/Cover4_Buildings/uptakeMaximumT, 0
+/cover/Cover4_Buildings/uptakeOptimumT, 0
+/cover/Cover4_Buildings/useEtRecoveryFraction, false
+/cover/Cover4_Buildings/useLinearMortalityAgStem, false
+/cover/Cover4_Buildings/useLinearMortalityBgStem, false
+/cover/Cover4_Buildings/useLinearMortalityLeaf, false
+/cover/Cover4_Buildings/useLinearMortalityRoot, false
+/cover/Cover4_Buildings/useNitrogenFixation, false
+/cover/Cover4_Buildings/useTranspirationLimiter, false
+/display/DisplayRange/maxAgTotalBurnedCarbonDaySpatialDisplay, 750.0
+/display/DisplayRange/maxAgTotalCarbonDaySpatialDisplay, 1000.0
+/display/DisplayRange/maxAgTotalGrazedCarbonDaySpatialDisplay, 750.0
+/display/DisplayRange/maxAirTDayDisplay, 40.0
+/display/DisplayRange/maxAirTSpatialDisplay, 30.0
+/display/DisplayRange/maxAirTYearDisplay, 30.0
+/display/DisplayRange/maxAsymbioticNfixedDayDisplay, 0.1
+/display/DisplayRange/maxBiomassAgStemDayDisplay, 55000
+/display/DisplayRange/maxBiomassBgStemDayDisplay, 10000
+/display/DisplayRange/maxBiomassDayDisplay, 75000.0
+/display/DisplayRange/maxBiomassLeafDayDisplay, 1600
+/display/DisplayRange/maxBiomassRootDayDisplay, 1600
+/display/DisplayRange/maxBiomassRootLayersDayDisplay, 1000.0
+/display/DisplayRange/maxBiomassYearFinalDisplay, 50000.0
+/display/DisplayRange/maxBiomassYearSumDisplay, 50000.0
+/display/DisplayRange/maxCo2DaySpatialDisplay, 2.0
+/display/DisplayRange/maxCo2DenitDaySpatialDisplay, 2.0
+/display/DisplayRange/maxContaminantDayDisplay, 1.0
+/display/DisplayRange/maxContaminantDaySpatialDisplay, 1.0
+/display/DisplayRange/maxDenitrificationDaySpatialDisplay, 0.00001
+/display/DisplayRange/maxDetritusAgStemDayDisplay, 30000
+/display/DisplayRange/maxDetritusBgStemDayDisplay, 7000
+/display/DisplayRange/maxDetritusBgStemLayersDayDisplay, 1800.0
+/display/DisplayRange/maxDetritusLeafDayDisplay, 2000
+/display/DisplayRange/maxDetritusRootDayDisplay, 1200
+/display/DisplayRange/maxDetritusRootLayersDayDisplay, 720.0
+/display/DisplayRange/maxDocLossDayDisplay, 0.04
+/display/DisplayRange/maxDocLossYearFinalDisplay, 200.0
+/display/DisplayRange/maxDocLossYearSumDisplay, 10.0
+/display/DisplayRange/maxDocSpatialDisplay, 600.0
+/display/DisplayRange/maxDonLossDayDisplay, 0.002
+/display/DisplayRange/maxDonLossYearFinalDisplay, 2.0
+/display/DisplayRange/maxDonLossYearSumDisplay, 0.4
+/display/DisplayRange/maxDonSpatialDisplay, 5.0
+/display/DisplayRange/maxEtDayDisplay, 10.0
+/display/DisplayRange/maxGroundTDayDisplay, 40.0
+/display/DisplayRange/maxHgDaySpatialDisplay, 1.0
+/display/DisplayRange/maxHumusDayDisplay, 20000.0
+/display/DisplayRange/maxHumusLayersDayDisplay, 1500.0
+/display/DisplayRange/maxHydroYearSumDisplay, 3000.0
+/display/DisplayRange/maxIrradianceDayDisplay, 1500.0
+/display/DisplayRange/maxIrradianceSpatialDisplay, 1500.0
+/display/DisplayRange/maxLitterDayDisplay, 55000.0
+/display/DisplayRange/maxMeHgDaySpatialDisplay, 1.0
+/display/DisplayRange/maxNepDayDisplay, 1000.0
+/display/DisplayRange/maxNepYearSumDisplay, 3000.0
+/display/DisplayRange/maxNh4LossDayDisplay, 0.0008
+/display/DisplayRange/maxNh4LossYearSumDisplay, 0.025
+/display/DisplayRange/maxNh4SpatialDisplay, 1.0
+/display/DisplayRange/maxNinDayDisplay, 0.02
+/display/DisplayRange/maxNinSpatialDisplay, 1.0
+/display/DisplayRange/maxNinfiltrationSpatialDisplay, 1.0
+/display/DisplayRange/maxNitrificationDaySpatialDisplay, 0.002
+/display/DisplayRange/maxNo3DenitDaySpatialDisplay, 2.0
+/display/DisplayRange/maxNo3LossDayDisplay, 0.0002
+/display/DisplayRange/maxNo3LossYearSumDisplay, 0.004
+/display/DisplayRange/maxNo3SpatialDisplay, 1.0
+/display/DisplayRange/maxNppDayDisplay, 20.0
+/display/DisplayRange/maxNppYearSumDisplay, 1200.0
+/display/DisplayRange/maxPlantUptakeSpatialDisplay, 0.5
+/display/DisplayRange/maxRainDayDisplay, 100.0
+/display/DisplayRange/maxRainSpatialDisplay, 60.0
+/display/DisplayRange/maxRunoffDayDisplay, 50.0
+/display/DisplayRange/maxSnowDepthSpatialDisplay, 30.0
+/display/DisplayRange/maxSnowMeltSpatialDisplay, 60.0
+/display/DisplayRange/maxSnowSpatialDisplay, 50.0
+/display/DisplayRange/maxStandingWaterDayDisplay, 250.0
+/display/DisplayRange/maxStandingWaterSpatialDisplay, 5.0
+/display/DisplayRange/maxSubRunoffDayDisplay, 30.0
+/display/DisplayRange/maxSurfaceDocSpatialDisplay, 100.0
+/display/DisplayRange/maxSurfaceDonSpatialDisplay, 1.0
+/display/DisplayRange/maxSurfaceNh4SpatialDisplay, 1.0
+/display/DisplayRange/maxSurfaceNo3SpatialDisplay, 1.0
+/display/DisplayRange/maxSymbioticNfixedDayDisplay, 1.0
+/display/DisplayRange/maxTidewaterSpatialDisplay, 3.0
+/display/DisplayRange/maxTotalNLossDayDisplay, 0.005
+/display/DisplayRange/maxVsaValueSpatialDisplay, 50.0
+/display/DisplayRange/maxWaterLayerTDayDisplay, 40.0
+/display/DisplayRange/max_aet, 1000.0
+/display/DisplayRange/max_ndetritus, 40000.0
+/display/DisplayRange/max_np, 3800.0
+/display/DisplayRange/max_psm_c, 60.0
+/display/DisplayRange/max_psm_don, 20.0
+/display/DisplayRange/max_psm_npp, 2.0
+/display/DisplayRange/max_qtdin, 0.0025
+/display/DisplayRange/minAgTotalBurnedCarbonDaySpatialDisplay, 0.0
+/display/DisplayRange/minAgTotalCarbonDaySpatialDisplay, 0.0
+/display/DisplayRange/minAgTotalGrazedCarbonDaySpatialDisplay, 0.0
+/display/DisplayRange/minAirTDayDisplay, -10.0
+/display/DisplayRange/minAirTSpatialDisplay, -10.0
+/display/DisplayRange/minAirTYearDisplay, 0.0
+/display/DisplayRange/minBiomassAgStemDayDisplay, 0.0
+/display/DisplayRange/minBiomassBgStemDayDisplay, 0.0
+/display/DisplayRange/minBiomassDayDisplay, 0.0
+/display/DisplayRange/minBiomassLeafDayDisplay, 0.0
+/display/DisplayRange/minBiomassRootDayDisplay, 0.0
+/display/DisplayRange/minBiomassRootLayersDayDisplay, 0.0
+/display/DisplayRange/minBiomassYearFinalDisplay, 0.0
+/display/DisplayRange/minBiomassYearSumDisplay, 0.0
+/display/DisplayRange/minContaminantDayDisplay, 0.0
+/display/DisplayRange/minContaminantDaySpatialDisplay, 0.0
+/display/DisplayRange/minDetritusAgStemDayDisplay, 0.0
+/display/DisplayRange/minDetritusBgStemDayDisplay, 0.0
+/display/DisplayRange/minDetritusBgStemLayersDayDisplay, 0
+/display/DisplayRange/minDetritusLeafDayDisplay, 0.0
+/display/DisplayRange/minDetritusRootDayDisplay, 0.0
+/display/DisplayRange/minDetritusRootLayersDayDisplay, 0.0
+/display/DisplayRange/minDocLossYearSumDisplay, 0.0
+/display/DisplayRange/minGroundTDayDisplay, -20.0
+/display/DisplayRange/minHgDaySpatialDisplay, 0.0
+/display/DisplayRange/minHumusDayDisplay, 0.0
+/display/DisplayRange/minHumusLayersDayDisplay, 0.0
+/display/DisplayRange/minHydroYearSumDisplay, 0.0
+/display/DisplayRange/minIrradianceSpatialDisplay, 0.0
+/display/DisplayRange/minLitterDayDisplay, 0.0
+/display/DisplayRange/minMeHgDaySpatialDisplay, 0.0
+/display/DisplayRange/minNepDayDisplay, -1400.0
+/display/DisplayRange/minNepYearSumDisplay, -3000.0
+/display/DisplayRange/minPlantUptakeSpatialDisplay, 0.0
+/display/DisplayRange/minVsaValueSpatialDisplay, 0.0
+/display/DisplayRange/minWaterLayerTDayDisplay, 0.0
+/display/DisplayRange/min_aet, 100.0
+/display/DisplayRange/min_ndetritus, 6000.0
+/display/DisplayRange/vplot_d, 20.0
+/display/DisplayRange/vplot_doc, 200.0
+/disturbance/Fertilizing_Grass/additionalHumus, 2.4412
+/disturbance/Fertilizing_Grass/additionalNh4, 1.6356
+/disturbance/Fertilizing_Grass/additionalNo3, 0.8056
+/disturbance/Fertilizing_Grass/ageThreshold, 0
+/disturbance/Fertilizing_Grass/depositionTargetOption, SURFACE
+/disturbance/Fertilizing_Grass/enableAutomaticSpatialReporting, false
+/disturbance/Fertilizing_Grass/filterMapFullName, 
+/disturbance/Fertilizing_Grass/initializeActiveJdays, 122,167,245,306
+/disturbance/Fertilizing_Grass/initializeActiveLoops, 1
+/disturbance/Fertilizing_Grass/initializeActiveYears, 1987-2015
+/disturbance/Fertilizing_Grass/initializeAgeModification, +0
+/disturbance/Fertilizing_Grass/initializeCoverIds, 14
+/disturbance/Fertilizing_Grass/initializeFilterIds, 
+/disturbance/Fertilizing_Grass/modelClass, FertilizeLsrDisturbanceModel
+/disturbance/Fertilizing_Grass/trimOutputToWatershedBoundary, false
+/disturbance/Mowing_Grass/ageThreshold, 0
+/disturbance/Mowing_Grass/biomassAgStemNharvestFraction, 0.3
+/disturbance/Mowing_Grass/biomassAgStemNoffsiteFraction, 0.2
+/disturbance/Mowing_Grass/biomassBgStemNharvestFraction, 0
+/disturbance/Mowing_Grass/biomassBgStemNoffsiteFraction, 0
+/disturbance/Mowing_Grass/biomassLeafNharvestFraction, 0.3
+/disturbance/Mowing_Grass/biomassLeafNoffsiteFraction, 0.2
+/disturbance/Mowing_Grass/biomassRootNharvestFraction, 0
+/disturbance/Mowing_Grass/biomassRootNoffsiteFraction, 0
+/disturbance/Mowing_Grass/enableAutomaticSpatialReporting, false
+/disturbance/Mowing_Grass/filterMapFullName, 
+/disturbance/Mowing_Grass/initializeActiveJdays, 61,75,92,106,122,136,153,167,183,197,214,228,245,259
+/disturbance/Mowing_Grass/initializeActiveLoops, 1
+/disturbance/Mowing_Grass/initializeActiveYears, 1987-2015
+/disturbance/Mowing_Grass/initializeAgeModification, +0
+/disturbance/Mowing_Grass/initializeCoverIds, 14
+/disturbance/Mowing_Grass/initializeFilterIds, 
+/disturbance/Mowing_Grass/modelClass, HarvestLsrDisturbanceModel
+/disturbance/Mowing_Grass/trimOutputToWatershedBoundary, false
+/disturbance/Watering_Grass/initializeActiveJdays, 167-259
+/disturbance/Watering_Grass/initializeActiveLoops, 1
+/disturbance/Watering_Grass/initializeActiveYears, 1987-2015
+/disturbance/Watering_Grass/initializeCoverIds, 14
+/disturbance/Watering_Grass/modelClass, IrrigationDisturbanceModel
+/disturbance/Watering_Grass/setIrrigationThreshold, 3.63
+/soil/Soil3_sandy_loam/bulkDensity, 1.52
+/soil/Soil3_sandy_loam/docLossFraction, 0.05
+/soil/Soil3_sandy_loam/donLossFraction, 0.03
+/soil/Soil3_sandy_loam/fieldCapacity, 0.207
+/soil/Soil3_sandy_loam/humusCtoN, 35.7
+/soil/Soil3_sandy_loam/humusNmaxDecay, 0.00028
+/soil/Soil3_sandy_loam/initialHumusCarbon, 15000.0
+/soil/Soil3_sandy_loam/ksLateralExponentialDecayFactor, 5.99E-05
+/soil/Soil3_sandy_loam/ksVerticalExponentialDecayFactor, 0.004628758
+/soil/Soil3_sandy_loam/nh4LossFraction, 0.01
+/soil/Soil3_sandy_loam/nitrificationK1, 0.2
+/soil/Soil3_sandy_loam/nitrificationKmax, 0.1
+/soil/Soil3_sandy_loam/nitrificationToN2o, 0.02
+/soil/Soil3_sandy_loam/nitrificationWfpsCoeff0, 0.5
+/soil/Soil3_sandy_loam/nitrificationWfpsCoeff1, 0.0
+/soil/Soil3_sandy_loam/nitrificationWfpsCoeff2, 1.5
+/soil/Soil3_sandy_loam/nitrificationWfpsCoeff3, 4.5
+/soil/Soil3_sandy_loam/no3LossFraction, 0.05
+/soil/Soil3_sandy_loam/pH, 4.5
+/soil/Soil3_sandy_loam/porosityFraction, 0.453
+/soil/Soil3_sandy_loam/setAllowExtremaAtLayer, 
+/soil/Soil3_sandy_loam/setDenitrificationSoilCondition, INTACT
+/soil/Soil3_sandy_loam/setSoilLayerKsLateralValues, 
+/soil/Soil3_sandy_loam/setSoilLayerKsVerticalValues, 
+/soil/Soil3_sandy_loam/setSoilLayerThicknesses, 500,500,500,500
+/soil/Soil3_sandy_loam/setSoilLayerWeights, 0.25, 0.25, 0.25, 0.25
+/soil/Soil3_sandy_loam/soilColumnDepth, 2000.0
+/soil/Soil3_sandy_loam/surfaceKs, 1827.60769
+/soil/Soil3_sandy_loam/uniqueId, 0
+/soil/Soil3_sandy_loam/uniqueName, sandy loam
+/soil/Soil3_sandy_loam/wiltPoint, 0.095
+/startups/VelmaStartups.properties/cellFileWritersDirName, ActiveCellWriters
+/startups/VelmaStartups.properties/collectCalibrationData, true
+/startups/VelmaStartups.properties/disturbanceModelsDirName, 
+/startups/VelmaStartups.properties/inputDataLocationDirName, taylor_10m_velma
+/startups/VelmaStartups.properties/inputDataLocationRootName, E:\velma-seattle-work\taylor_setup_files
+/startups/VelmaStartups.properties/notesText, 2019-11-08 BLB 
+Changed input directories to match Brad's computer.
+
+2019-11-01 kdjang
+Derived from scen0_calib_server_taylor_infAll_2004-2009.xml
+for running under JVelma with MOEA-indicated parameters received from BLB on 2019-10-27
+
+2019-08-21 BLB 
+Changed obs file to obs_mmday_taylor_1987-2015.csv
+
+
+2019-07-24 BLB
+Set up run years as follows: 
+Spin-up: 2002-2003
+Calib: 2004-2009
+Valid: 2010-2015
+
+2019-07-22 BLB 
+Changed to Lenovo's specs. Added observed runoff for Taylor.
+
+2018-02-26 BLB 
+Changed from Pipers to Taylor but keeping calibration parameters. 
+
+
+2018-02-21 BLB 
+Changed from Longfellow to Pipers but keeping calibration parameters. 
+
+
+2018-02-12
+Added fertilizer and mowing disturbances
+Fertilizer: half humus / half soluble. 2/3nh4 1/3no3
+Mowing: take 30% of biomass, 20% of that taken offsite. 
+
+2018-02-05
+Put in Irrigation disturbance so that people water their lawns. 
+Threshold is 3.63 mm/day for each grass cell.
+
+2018-02-01
+put in values from 0d62 moea run. 
+/calibration/VelmaCalibration.properties/be	
+/cover/Cover1_Conifer/petParam1	
+/cover/Cover3_Grass/petParam1	
+/soil/Soil3_sandy_loam/ksLateralExponentialDecayFactor	
+/soil/Soil3_sandy_loam/ksVerticalExponentialDecayFactor	
+/soil/Soil3_sandy_loam/surfaceKs
+
+objectives	-0.615062362	
+variables	
+6.939899497	
+0.991064989	
+0.959912051	
+9.23E-05	
+0.002305796	
+771.1977744
+
+
+2018-01-22
+Separated Building (2) and Roads (13) into two separate cover types. 
+Changed cover type file to lulc_complex_longfellow_10m_new.asc
+
+2017-08-30
+Set 1year spinup, matched outlet to observed data, and created simplified LULC. 
+Grass is uniqueid 14
+Buildings/Road is uniqueid 13
+Conifer is uniqueid 3
+
+Permable surfaces included. pervious_lulc_longfellow_1m.asc
+
+2017-05-24
+Set directories to 
+L:\Priv\CORFiles\Projects\Velma\0_VELMA Projects\Case Studies\Seattle\Longfellow\longfellow_10m_velma
+
+
+2016-12-08: Started with HJAndrews base xml.
+Historical Run 
+AGE = all 0's 
+COVER = all 3's Conifer
+SOIL = all 3's NEED TO CHECK PARAMETERS
+/startups/VelmaStartups.properties/setEndStateSpatialDataLocationName, 
+/startups/VelmaStartups.properties/setSoilTemperatureModel, SWAT_DERIVED
+/startups/VelmaStartups.properties/setStartStateSpatialDataLocationName, 
+/startups/VelmaStartups.properties/setStreamTemperatureModel, BASELINE_LINEAR
+/startups/VelmaStartups.properties/spatialFileWritersDirName, ActiveSpatialFileWriters
+/startups/VelmaStartups.properties/suppressAllOutputFiles, false
+/startups/VelmaStartups.properties/useExperimentalHydrologyCode, false
+/startups/VelmaStartups.properties/useExperimentalPsmCode, false
+/startups/VelmaStartups.properties/useExperimentalWaterTemperatureCode, false
+/startups/VelmaStartups.properties/useIcellStepByDayCode, false
+/startups/VelmaStartups.properties/useIsotopeCode, false
+/startups/VelmaStartups.properties/useMercuryCode, false
+/weather/DefaultWeatherModel/airTemperatureDriverDataFileName, tmp1987-2015.csv
+/weather/DefaultWeatherModel/modelClass, gov.epa.velmasimulator.DefaultWeatherModel
+/weather/DefaultWeatherModel/rainDriverDataFileName, precip1987-2015.csv
+/weather/DefaultWeatherModel/rainOnSnowEffect, 0.5
+/weather/DefaultWeatherModel/snowFormationTemperature, 0.0
+/weather/DefaultWeatherModel/snowMeltRate, 5.0
+/weather/DefaultWeatherModel/snowMeltTemperature, 2.0
+/weather/DefaultWeatherModel/uniqueId, 1
+/weather/DefaultWeatherModel/uniqueName, DefaultWeatherModel

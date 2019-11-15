@@ -1,0 +1,30 @@
+- Used MOEA-VELMA to calibrate taylor for NSE flow. 
+
+- Chose parameter set and ran taylor with this parameter set. This is the scen0 parameter set. 
+
+NEED TO DO: Check outputs from taylor_setup_files/outputs/scen_calib_server_taylor_infAll_v2_2004-2009_blb to make sure that 
+they match Kevin's email. Then, calculate NSE using Rstudio and compare with the values obtained for MOEA. 
+
+E:\velma-seattle-work\taylor_setup_files\scen0_calib_server_taylor_infAll_v2_2004-2009_blb.xml
+Changed sim years and name to -> E:\velma-seattle-work\taylor_setup_files\scen0_calibrated_taylor_2002-2015.xml
+
+- Copied parameters from scen0 over to scen1, scen2, scen3, scen4 for taylor. 
+
+scen1_calibrated_taylor_28yr_int.xml
+scen2_calibrated_taylor_28yr_int.xml
+scen3_calibrated_taylor_28yr_int.xml
+scen4_calibrated_taylor_28yr_int.xml
+
+scen1_calibrated_taylor_28yr_ext.xml
+scen2_calibrated_taylor_28yr_ext.xml
+scen3_calibrated_taylor_28yr_ext.xml
+scen4_calibrated_taylor_28yr_ext.xml 
+
+
+NEED TO DO: - Copied parameters from scen0 over to scen1, scen2, scen3, scen4 for Thornton
+
+
+NEED TO DO: - Copied parameters from scen0 over to scen1, scen2, scen3, scen4 for Longfellow
+
+
+NEED TO DO: - Copied parameters from scen0 over to scen1, scen2, scen3, scen4 for Pipers

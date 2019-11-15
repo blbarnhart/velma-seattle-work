@@ -1,0 +1,2 @@
+Nash-Sutcliffe Coefficient=0.6334808133581511 Loop=1 Year=2015
+Root Mean Square Error value=1.0522313828772363 observations=365 Loop=1 Year=2015
