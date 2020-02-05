@@ -1,0 +1,6 @@
+Unique_Id,Unique_Name,Cell_Count,Biomass_Leaf_CtoN,Biomass_AgStem_CtoN,Biomass_BgStem_CtoN,Biomass_Root_CtoN,Detritus_Leaf_CtoN,Detritus_AgStem_CtoN,Detritus_BgStem_CtoN,Detritus_Root_CtoN,Total_Contributors_Cell_Count
+2,Cover4_Buildings,7710,50.0,0.001,0.001,70.0,50.0,0.001,0.001,70.0,0
+3,Conifer,131876,46.0,857.0,533.0,77.0,46.0,857.0,533.0,77.0,0
+20,Cover5_GreenRoofs,23310,59.0,67.0,67.0,90.0,59.0,67.0,67.0,90.0,0
+13,Cover2_RoadsBuildings,81632,50.0,0.001,0.001,70.0,50.0,0.001,0.001,70.0,0
+14,Cover3_Grass,67167,59.0,67.0,67.0,90.0,59.0,67.0,67.0,90.0,0

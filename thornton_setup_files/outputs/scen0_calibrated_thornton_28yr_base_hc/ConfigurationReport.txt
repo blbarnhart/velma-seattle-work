@@ -1,0 +1,52 @@
+= VELMA_2.1.0.20
+
+= Startups Summary:
+Startups: Input Data Root is "E:\velma-seattle-work\thornton_setup_files"
+Startups: Input Data Directory is "thornton_10m_velma"
+useIsotopeCode = false
+useMercuryCode = false
+
+= Spatial Data Summary:
+Spatial Data: DEM file is "thornton_Dredge_EEX_Flat_10m.asc"
+Spatial Data: DEM dimensions = 990 rows by 681 columns
+Spatial Data: DEM Total Cells= 674190
+Spatial Data: Delineated Cells= 311695
+Spatial Data: Delineated X min= 28, X max=662
+Spatial Data: Delineated Y min= 20, Y max=969
+Spatial Data: Cell dimensions= 10.000000 by 10.000000 meters
+
+= Timing Summary:
+Timing: Driver Data Start Year = 1987
+Timing: Driver Data   End Year = 2015
+Timing: Simulation Run Start Year = 1987
+Timing: Simulation Run   End Year = 2015
+
+= Soil Parameters Summary:
+Soil Parameters: Index Map File is "thornton_soil_10m.asc"
+ID=0 "sandy loam" occurs in 311695 delineated cells.
+
+= Cover Species Summary:
+Cover Species: Index Map File is "lulc_complex_thornton_10m.asc"
+Cover Species:   Age Map File is "thornton_age_10m.asc"
+ID=2 "Cover4_Buildings" occurs in 31020 delineated cells. No Source File: XML-only
+ID=3 "Conifer" occurs in 131876 delineated cells. No Source File: XML-only
+ID=13 "Cover2_RoadsBuildings" occurs in 81632 delineated cells. No Source File: XML-only
+ID=14 "Cover3_Grass" occurs in 67167 delineated cells. No Source File: XML-only
+
+
+= Disturbance Models Summary:
+Current Disturbance Models:
+Irrigation Disturbance Model in Loops: 1 in Years: 1987-2015 on Jdays: 167-259 irrigationThreshold=3.630000114440918
+Fertilize LSR Disturbance Model coverIds=[14] Filter=OFF ageThreshold={[0, 2147483647]} Additional (gN/m2):  NH4=1.6356 NO3=0.8056 Humus=2.4412 depositionTargetOption=SURFACE Active on Loops=[1] Years=[1987-2015] Jdays=[122, 167, 245, 306]
+Harvest LSR Disturbance Model coverIds=[14] Filter=OFF ageThreshold={[0, 2147483647]} Fractions={harvest, offsite} LEAF={0.3, 0.2} AG_STEM={0.3, 0.2} BG_STEM={0.0, 0.0} ROOT={0.0, 0.0} Active on Loops=[1] Years=[1987-2015] Jdays=[61, 75, 92, 106, 122, 136, 153, 167, 183, 197, 214, 228, 245, 259]
+
+= Cell Data Output Summary:
+Current Cell Data Writers:
+Cell Data Writer name=Outlet for x=54 y=193 index=131487
+
+= Spatial Data Map Output Summary:
+Current Spatial Data Writers:
+-- No Spatial Data Writers --
+Current Spatial Data Writer Data Sources Grouped by Output Location:
+
+

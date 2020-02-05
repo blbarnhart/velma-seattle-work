@@ -1,3 +1,0 @@
-WARNING: No Observed Runoff Data Available -- Coefficient is Invalid.
-Nash-Sutcliffe Coefficient=-Infinity Loop=1 Year=2015
-Root Mean Square Error value=1.3495613641969046 observations=365 Loop=1 Year=2015

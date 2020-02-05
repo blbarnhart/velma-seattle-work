@@ -1,0 +1,54 @@
+= VELMA_2.1.0.20
+
+= Startups Summary:
+Startups: Input Data Root is "E:\velma-seattle-work\longfellow_setup_files"
+Startups: Input Data Directory is "longfellow_10m_velma"
+useIsotopeCode = false
+useMercuryCode = false
+
+= Spatial Data Summary:
+Spatial Data: DEM file is "longfellow_Dredge_EEX_Flat_10m.asc"
+Spatial Data: DEM dimensions = 699 rows by 309 columns
+Spatial Data: DEM Total Cells= 215991
+Spatial Data: Delineated Cells= 98309
+Spatial Data: Delineated X min= 13, X max=282
+Spatial Data: Delineated Y min= 94, Y max=691
+Spatial Data: Cell dimensions= 10.000000 by 10.000000 meters
+
+= Timing Summary:
+Timing: Driver Data Start Year = 1987
+Timing: Driver Data   End Year = 2015
+Timing: Simulation Run Start Year = 1987
+Timing: Simulation Run   End Year = 2015
+
+= Soil Parameters Summary:
+Soil Parameters: Index Map File is "longfellow_soil_75gr_10m.asc"
+ID=0 "sandy loam" occurs in 90869 delineated cells.
+ID=20 "Soil20_green_roof" occurs in 7440 delineated cells.
+
+= Cover Species Summary:
+Cover Species: Index Map File is "longfellow_10m_buildings_75_cover_green_roof.asc"
+Cover Species:   Age Map File is "longfellow_age_10m.asc"
+ID=2 "Cover4_Buildings" occurs in 2443 delineated cells. No Source File: XML-only
+ID=3 "Conifer" occurs in 34011 delineated cells. No Source File: XML-only
+ID=20 "Cover5_GreenRoofs" occurs in 7440 delineated cells. No Source File: XML-only
+ID=13 "Cover2_RoadsBuildings" occurs in 29473 delineated cells. No Source File: XML-only
+ID=14 "Cover3_Grass" occurs in 24942 delineated cells. No Source File: XML-only
+
+
+= Disturbance Models Summary:
+Current Disturbance Models:
+Irrigation Disturbance Model in Loops: 1 in Years: 1987-2015 on Jdays: 167-259 irrigationThreshold=3.630000114440918
+Fertilize LSR Disturbance Model coverIds=[14] Filter=OFF ageThreshold={[0, 2147483647]} Additional (gN/m2):  NH4=1.6356 NO3=0.8056 Humus=2.4412 depositionTargetOption=SURFACE Active on Loops=[1] Years=[1987-2015] Jdays=[122, 167, 245, 306]
+Harvest LSR Disturbance Model coverIds=[14] Filter=OFF ageThreshold={[0, 2147483647]} Fractions={harvest, offsite} LEAF={0.3, 0.2} AG_STEM={0.3, 0.2} BG_STEM={0.0, 0.0} ROOT={0.0, 0.0} Active on Loops=[1] Years=[1987-2015] Jdays=[61, 75, 92, 106, 122, 136, 153, 167, 183, 197, 214, 228, 245, 259]
+
+= Cell Data Output Summary:
+Current Cell Data Writers:
+Cell Data Writer name=Outlet for x=38 y=189 index=58439
+
+= Spatial Data Map Output Summary:
+Current Spatial Data Writers:
+-- No Spatial Data Writers --
+Current Spatial Data Writer Data Sources Grouped by Output Location:
+
+

@@ -1,0 +1,6 @@
+/calibration/VelmaCalibration.properties/be,5.361935604
+/cover/Cover1_Conifer/petParam1,0.620902
+/cover/Cover3_Grass/petParam1,0.647786643
+/soil/Soil3_sandy_loam/ksLateralExponentialDecayFactor,6.90E-05
+/soil/Soil3_sandy_loam/ksVerticalExponentialDecayFactor,0.00481211
+/soil/Soil3_sandy_loam/surfaceKs,2090.312093
